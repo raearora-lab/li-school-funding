@@ -90,7 +90,7 @@ function table(){
  if(st.county!=="Nassau")foot.push([agg(D.filter(function(r){return r.county==="Suffolk"}),"Suffolk total"),""]);
  foot.push([agg(D,"Long Island total"),"li"]);
  t.tFoot.innerHTML=foot.map(function(f){return'<tr class="'+f[1]+'"><td>'+f[0].name+"</td>"+cells(f[0],1)+"</tr>"}).join("");
- $("table-note").textContent=rows.length+" of 125 districts shown. Revenue is fiscal 2024-25 actuals. Blue columns are for context and aren't counted in total revenue. Per-pupil figures divide by fall 2024 K-12 enrollment. Subtotals always cover every district in the county.";
+ $("table-note").textContent=rows.length+" of 125 districts shown. Revenue is fiscal 2024-25 actuals. Blue columns are for context and aren't counted in total revenue. Per-pupil figures divide by fall 2024 K-12 enrollment. Subtotals always cover every district in the county. n/a means the state did not report a figure; in the % view Foundation Aid reads n/a because it covers a different year.";
 }
 $("search").addEventListener("input",function(e){st.q=e.target.value;table()});
 
