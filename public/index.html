@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Long Island school districts: where the money comes from — Who Runs NY</title>
+  <meta name="description" content="Funding sources for all 125 Nassau and Suffolk school districts: property taxes, STAR, PILOTs, state aid, federal aid and other local revenue, fiscal year 2024-25.">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=IBM+Plex+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a class="wordmark" href="https://whorunsny.org" rel="noopener">Who Runs NY</a>
+      <span class="dot" aria-hidden="true"></span>
+      <span class="kicker">LI school funding</span>
+    </div>
+    <nav class="nav" aria-label="On this page">
+      <a href="#findings">Findings</a>
+      <a href="#mix">Funding mix</a>
+      <a href="#map-sec">Map</a>
+      <a href="#table">All districts</a>
+      <a href="#sources">Sources</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <p class="eyebrow">Nassau + Suffolk · fiscal year 2024-25 actual revenue · 125 districts</p>
+    <h1><span class="h-lime">Who pays for</span><br><span class="h-pink">Long Island schools</span></h1>
+    <p class="lede">Every dollar each of the <b>125</b> districts took in during 2024-25, split by where it came from: local property taxes, STAR, PILOTs, state aid, federal aid and other local money.</p>
+    <div class="hero-stats" id="hero-stats"></div>
+  </section>
+
+  <section class="page" id="findings">
+    <p class="eyebrow">What the numbers say</p>
+    <h2 class="h-lime">Findings</h2>
+    <div class="findings" id="findings-list"></div>
+  </section>
+
+  <section class="page" id="mix">
+    <p class="eyebrow">Share of 2024-25 revenue by source</p>
+    <h2 class="h-pink">Funding mix, district by district</h2>
+    <div class="toolbar">
+      <div class="field"><span>Sort by</span><div class="pills" id="mix-sort"></div></div>
+      <div class="field"><span>County</span><div class="pills" id="mix-county"></div></div>
+    </div>
+    <div class="legend-row" id="mix-legend"></div>
+    <div class="mix" id="mix-bars"></div>
+  </section>
+
+  <section class="page" id="map-sec">
+    <p class="eyebrow">Colored by state aid as a share of revenue</p>
+    <h2 class="glow-teal">How much comes from Albany</h2>
+    <div class="map-wrap"><div id="map" role="application" aria-label="Map of Long Island school districts colored by state aid share"></div>
+      <div class="map-legend" id="map-legend"></div>
+    </div>
+  </section>
+
+  <section class="page" id="table">
+    <p class="eyebrow">Funding sources as columns · one row per district</p>
+    <h2 class="h-lime">All 125 districts</h2>
+    <div class="toolbar">
+      <div class="field"><span>Show</span><div class="pills" id="unit"></div></div>
+      <div class="field"><span>County</span><div class="pills" id="county"></div></div>
+      <label class="field grow"><span>Find a district</span><input id="search" type="search" placeholder="Brentwood, Manhasset…" autocomplete="off"></label>
+    </div>
+    <div class="table-wrap"><table class="data" id="ftable"><thead></thead><tbody></tbody><tfoot></tfoot></table></div>
+    <p class="note" id="table-note"></p>
+  </section>
+
+  <section class="page methodology" id="sources">
+    <p class="eyebrow">Sources, definitions and gaps</p>
+    <h2 class="glow-blue">Sources</h2>
+    <ul>
+      <li><b>Revenue by source:</b> New York State Comptroller, Financial Data for Local Governments, school district account-level file for fiscal year 2025 (July 1, 2024 to June 30, 2025), data as of Oct. 30, 2026. All governmental funds a district reports: general, school lunch, special aid, capital projects and debt service. Interfund transfers, borrowing proceeds and custodial (extraclassroom) money are left out so nothing is counted twice.</li>
+      <li><b>State formula aid</b> is the general-fund basic formula aid line (Foundation Aid plus expense-based aids such as transportation and building aid), lottery aid and BOCES aid. The Comptroller file doesn't break out Foundation Aid on its own, so the separate <b>Foundation Aid 2026-27</b> column comes from the State Education Department's 2026-27 enacted-budget state aid file (May 19, 2026). It's a different year and isn't part of the totals.</li>
+      <li><b>STAR</b> is the state's reimbursement to the district for the STAR exemption. Homeowners who get the STAR credit as a check from the state don't show up here, because that money never passes through the district.</li>
+      <li><b>Fund balance:</b> "GF balance change" is the general fund's end-of-year balance minus its beginning balance in 2024-25, with prior-period adjustments removed. A negative number means the district drew down its savings. "Appropriated fund balance 2026-27" is the savings each district planned to spend in its 2026-27 budget (State Education Department 2026-27 Property Tax Report Card). Neither one is counted in revenue.</li>
+      <li><b>Per pupil</b> divides by fall 2024 K-12 enrollment. Bellmore-Merrick, Sewanhaka and Valley Stream Central only teach grades 7-12, so their per-pupil figures aren't comparable to K-12 districts.</li>
+      <li><b>Missing data:</b> Wainscott, Sagaponack, New Suffolk and Little Flower aren't in the state aid file or the property tax report card, so their Foundation Aid and appropriated fund balance cells read "n/a". New Suffolk has no fall 2024 enrollment count, so it has no per-pupil figures. Little Flower is a special-act district for students placed by other districts. It levies no property tax and is paid almost entirely through tuition.</li>
+    </ul>
+  </section>
+  <footer class="site-footer">Built for Rae Arora · <a href="https://whorunsny.org">whorunsny.org</a></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
