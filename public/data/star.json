@@ -1,0 +1,4697 @@
+{
+  "retrieved": "2026-11-20",
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "default_year": 2025,
+  "sources": {
+    "district": {
+      "id": "aa3i-eamx",
+      "title": "NYS School Tax Relief (STAR) Reimbursement by School District: Beginning Levy Year 1998",
+      "url": "https://data.ny.gov/Government-Finance/NYS-School-Tax-Relief-STAR-Reimbursement-by-School/aa3i-eamx"
+    },
+    "county": {
+      "id": "vdat-cgbe",
+      "title": "NYS School Tax Relief (STAR) Reimbursement by County: Beginning Levy Year 1998",
+      "url": "https://data.ny.gov/Government-Finance/NYS-School-Tax-Relief-STAR-Reimbursement-by-County/vdat-cgbe"
+    },
+    "max_savings": {
+      "id": "jajz-mu5n",
+      "title": "STAR Credit and Exemption History: Beginning 2019",
+      "url": "https://data.ny.gov/d/jajz-mu5n"
+    }
+  },
+  "osc_fy2024_25": {
+    "account": "1085",
+    "fiscal_year": "2024-25",
+    "nassau_total": 190734040,
+    "central_high_school_total": 19669519
+  },
+  "county": [
+    {
+      "year": 2019,
+      "school_year": "2019-20",
+      "basic_count": 191177,
+      "basic_dollars": 230642491,
+      "enhanced_count": 40778,
+      "enhanced_dollars": 104104893,
+      "total_dollars": 334747384,
+      "district_rows_dollars": 333781581,
+      "gap_dollars": 965803,
+      "district_rows_basic_count": 190650,
+      "district_rows_enhanced_count": 40519,
+      "prepared": "2023-03-29"
+    },
+    {
+      "year": 2020,
+      "school_year": "2020-21",
+      "basic_count": 172661,
+      "basic_dollars": 205631290,
+      "enhanced_count": 39506,
+      "enhanced_dollars": 102374952,
+      "total_dollars": 308006242,
+      "district_rows_dollars": 307109479,
+      "gap_dollars": 896763,
+      "district_rows_basic_count": 172183,
+      "district_rows_enhanced_count": 39268,
+      "prepared": "2024-03-14"
+    },
+    {
+      "year": 2021,
+      "school_year": "2021-22",
+      "basic_count": 161128,
+      "basic_dollars": 191646606,
+      "enhanced_count": 37396,
+      "enhanced_dollars": 97722836,
+      "total_dollars": 289369442,
+      "district_rows_dollars": 288523358,
+      "gap_dollars": 846084,
+      "district_rows_basic_count": 160679,
+      "district_rows_enhanced_count": 37171,
+      "prepared": "2026-03-18"
+    },
+    {
+      "year": 2022,
+      "school_year": "2022-23",
+      "basic_count": 145988,
+      "basic_dollars": 169310417,
+      "enhanced_count": 36941,
+      "enhanced_dollars": 100719867,
+      "total_dollars": 270030284,
+      "district_rows_dollars": 269285833,
+      "gap_dollars": 744451,
+      "district_rows_basic_count": 145602,
+      "district_rows_enhanced_count": 36736,
+      "prepared": "2026-03-18"
+    },
+    {
+      "year": 2023,
+      "school_year": "2023-24",
+      "basic_count": 129263,
+      "basic_dollars": 139934531,
+      "enhanced_count": 36480,
+      "enhanced_dollars": 96234076,
+      "total_dollars": 236168607,
+      "district_rows_dollars": 235470283,
+      "gap_dollars": 698324,
+      "district_rows_basic_count": 128942,
+      "district_rows_enhanced_count": 36295,
+      "prepared": "2026-03-18"
+    },
+    {
+      "year": 2024,
+      "school_year": "2024-25",
+      "basic_count": 118704,
+      "basic_dollars": 102397920,
+      "enhanced_count": 35294,
+      "enhanced_dollars": 88763109,
+      "total_dollars": 191161029,
+      "district_rows_dollars": 190734039,
+      "gap_dollars": 426990,
+      "district_rows_basic_count": 118410,
+      "district_rows_enhanced_count": 35134,
+      "prepared": "2026-03-18"
+    },
+    {
+      "year": 2025,
+      "school_year": "2025-26",
+      "basic_count": 105345,
+      "basic_dollars": 92742259,
+      "enhanced_count": 35535,
+      "enhanced_dollars": 85671298,
+      "total_dollars": 178413557,
+      "district_rows_dollars": 178009698,
+      "gap_dollars": 403859,
+      "district_rows_basic_count": 105111,
+      "district_rows_enhanced_count": 35394,
+      "prepared": "2026-03-18"
+    }
+  ],
+  "districts": [
+    {
+      "id": "280100",
+      "nces": "3612180",
+      "name": "Glen Cove City SD",
+      "orpts": "280500",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3024816,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "H",
+        "tax_class_label": "Homestead (City of Glen Cove)",
+        "basic_credit": 800.44,
+        "basic_exemption": 800.44,
+        "enhanced_credit": 2056,
+        "enhanced_exemption": 1789
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2584,
+          "basic_dollars": 2501810,
+          "enhanced_count": 919,
+          "enhanced_dollars": 1937177,
+          "total_dollars": 4438987
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2382,
+          "basic_dollars": 2301961,
+          "enhanced_count": 940,
+          "enhanced_dollars": 2006277,
+          "total_dollars": 4308238
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2247,
+          "basic_dollars": 2125512,
+          "enhanced_count": 893,
+          "enhanced_dollars": 1888353,
+          "total_dollars": 4013865
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2060,
+          "basic_dollars": 1890789,
+          "enhanced_count": 870,
+          "enhanced_dollars": 1865193,
+          "total_dollars": 3755982
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1638,
+          "basic_dollars": 1405889,
+          "enhanced_count": 831,
+          "enhanced_dollars": 1814889,
+          "total_dollars": 3220778
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1459,
+          "basic_dollars": 1206210,
+          "enhanced_count": 843,
+          "enhanced_dollars": 1818606,
+          "total_dollars": 3024816
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1352,
+          "basic_dollars": 1075692,
+          "enhanced_count": 800,
+          "enhanced_dollars": 1685284,
+          "total_dollars": 2760976
+        }
+      }
+    },
+    {
+      "id": "280201",
+      "nces": "3614130",
+      "name": "Hempstead UFSD",
+      "orpts": "282001",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 2847208,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1133.75,
+        "basic_exemption": 1133.75,
+        "enhanced_credit": 3174.49,
+        "enhanced_exemption": 3092
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2147,
+          "basic_dollars": 3146611,
+          "enhanced_count": 412,
+          "enhanced_dollars": 1281176,
+          "total_dollars": 4427787
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2005,
+          "basic_dollars": 2938376,
+          "enhanced_count": 422,
+          "enhanced_dollars": 1303327,
+          "total_dollars": 4241703
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1942,
+          "basic_dollars": 2786503,
+          "enhanced_count": 397,
+          "enhanced_dollars": 1234367,
+          "total_dollars": 4020870
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1751,
+          "basic_dollars": 2486197,
+          "enhanced_count": 419,
+          "enhanced_dollars": 1370187,
+          "total_dollars": 3856384
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1550,
+          "basic_dollars": 2076327,
+          "enhanced_count": 431,
+          "enhanced_dollars": 1416710,
+          "total_dollars": 3493037
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1490,
+          "basic_dollars": 1598103,
+          "enhanced_count": 396,
+          "enhanced_dollars": 1249105,
+          "total_dollars": 2847208
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1306,
+          "basic_dollars": 1458052,
+          "enhanced_count": 422,
+          "enhanced_dollars": 1297696,
+          "total_dollars": 2755748
+        }
+      }
+    },
+    {
+      "id": "280202",
+      "nces": "3629280",
+      "name": "Uniondale UFSD",
+      "orpts": "282002",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3730588,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 750,
+        "basic_exemption": 735,
+        "enhanced_credit": 2143.63,
+        "enhanced_exemption": 2088
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 4104,
+          "basic_dollars": 3936496,
+          "enhanced_count": 779,
+          "enhanced_dollars": 1618016,
+          "total_dollars": 5554512
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 3854,
+          "basic_dollars": 3693358,
+          "enhanced_count": 764,
+          "enhanced_dollars": 1586365,
+          "total_dollars": 5279723
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 3745,
+          "basic_dollars": 3563475,
+          "enhanced_count": 708,
+          "enhanced_dollars": 1502211,
+          "total_dollars": 5065686
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 3507,
+          "basic_dollars": 3259371,
+          "enhanced_count": 743,
+          "enhanced_dollars": 1652889,
+          "total_dollars": 4912260
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 3151,
+          "basic_dollars": 2719205,
+          "enhanced_count": 762,
+          "enhanced_dollars": 1640582,
+          "total_dollars": 4359787
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 3039,
+          "basic_dollars": 2184244,
+          "enhanced_count": 718,
+          "enhanced_dollars": 1546344,
+          "total_dollars": 3730588
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2798,
+          "basic_dollars": 2068699,
+          "enhanced_count": 758,
+          "enhanced_dollars": 1568071,
+          "total_dollars": 3636770
+        }
+      }
+    },
+    {
+      "id": "280203",
+      "nces": "3609840",
+      "name": "East Meadow UFSD",
+      "orpts": "282003",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 8331513,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 752.37,
+        "basic_exemption": 752.37,
+        "enhanced_credit": 2106.63,
+        "enhanced_exemption": 2106.63
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 8721,
+          "basic_dollars": 10312116,
+          "enhanced_count": 2434,
+          "enhanced_dollars": 5469691,
+          "total_dollars": 15781807
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 7993,
+          "basic_dollars": 9332512,
+          "enhanced_count": 2322,
+          "enhanced_dollars": 5290953,
+          "total_dollars": 14623465
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 7468,
+          "basic_dollars": 8691965,
+          "enhanced_count": 2194,
+          "enhanced_dollars": 5064852,
+          "total_dollars": 13756817
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 6778,
+          "basic_dollars": 7698884,
+          "enhanced_count": 2098,
+          "enhanced_dollars": 5090959,
+          "total_dollars": 12789843
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 6082,
+          "basic_dollars": 6153979,
+          "enhanced_count": 2050,
+          "enhanced_dollars": 4621615,
+          "total_dollars": 10775594
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 5617,
+          "basic_dollars": 4260247,
+          "enhanced_count": 1988,
+          "enhanced_dollars": 4071266,
+          "total_dollars": 8331513
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 5033,
+          "basic_dollars": 3758561,
+          "enhanced_count": 1981,
+          "enhanced_dollars": 3800351,
+          "total_dollars": 7558912
+        }
+      }
+    },
+    {
+      "id": "280204",
+      "nces": "3620940",
+      "name": "North Bellmore UFSD",
+      "orpts": "282004",
+      "chsd": false,
+      "chsd_group": "Bellmore-Merrick Central HS District",
+      "osc_star_fy2024_25": 2839458,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1015,
+        "basic_exemption": 995,
+        "enhanced_credit": 2878.02,
+        "enhanced_exemption": 2878.02
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 4588,
+          "basic_dollars": 6377377,
+          "enhanced_count": 970,
+          "enhanced_dollars": 2901579,
+          "total_dollars": 9278956
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 4160,
+          "basic_dollars": 5724127,
+          "enhanced_count": 935,
+          "enhanced_dollars": 2853719,
+          "total_dollars": 8577846
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 3900,
+          "basic_dollars": 5347481,
+          "enhanced_count": 912,
+          "enhanced_dollars": 2803343,
+          "total_dollars": 8150824
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 3527,
+          "basic_dollars": 4715749,
+          "enhanced_count": 903,
+          "enhanced_dollars": 2892448,
+          "total_dollars": 7608197
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 3189,
+          "basic_dollars": 3982185,
+          "enhanced_count": 893,
+          "enhanced_dollars": 2755956,
+          "total_dollars": 6738141
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 2931,
+          "basic_dollars": 2916191,
+          "enhanced_count": 876,
+          "enhanced_dollars": 2585160,
+          "total_dollars": 5501351
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2606,
+          "basic_dollars": 2635972,
+          "enhanced_count": 907,
+          "enhanced_dollars": 2545929,
+          "total_dollars": 5181901
+        }
+      }
+    },
+    {
+      "id": "280205",
+      "nces": "3617160",
+      "name": "Levittown UFSD",
+      "orpts": "282005",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 12953095,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1162,
+        "basic_exemption": 1139,
+        "enhanced_credit": 3304.08,
+        "enhanced_exemption": 3304.08
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 8735,
+          "basic_dollars": 14136088,
+          "enhanced_count": 2032,
+          "enhanced_dollars": 7128320,
+          "total_dollars": 21264408
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 7948,
+          "basic_dollars": 12802269,
+          "enhanced_count": 2017,
+          "enhanced_dollars": 7127383,
+          "total_dollars": 19929652
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 7498,
+          "basic_dollars": 11980636,
+          "enhanced_count": 1945,
+          "enhanced_dollars": 6985986,
+          "total_dollars": 18966622
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 6838,
+          "basic_dollars": 10634165,
+          "enhanced_count": 1939,
+          "enhanced_dollars": 7249745,
+          "total_dollars": 17883910
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 6239,
+          "basic_dollars": 8936784,
+          "enhanced_count": 1932,
+          "enhanced_dollars": 6892273,
+          "total_dollars": 15829057
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 5733,
+          "basic_dollars": 6526436,
+          "enhanced_count": 1886,
+          "enhanced_dollars": 6426659,
+          "total_dollars": 12953095
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 5132,
+          "basic_dollars": 5951899,
+          "enhanced_count": 1930,
+          "enhanced_dollars": 6254611,
+          "total_dollars": 12206510
+        }
+      }
+    },
+    {
+      "id": "280206",
+      "nces": "3626400",
+      "name": "Seaford UFSD",
+      "orpts": "282006",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3720949,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1072,
+        "basic_exemption": 1051,
+        "enhanced_credit": 3049.05,
+        "enhanced_exemption": 3019
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2998,
+          "basic_dollars": 4149004,
+          "enhanced_count": 659,
+          "enhanced_dollars": 1900523,
+          "total_dollars": 6049527
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2686,
+          "basic_dollars": 3676090,
+          "enhanced_count": 631,
+          "enhanced_dollars": 1861225,
+          "total_dollars": 5537315
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2504,
+          "basic_dollars": 3416641,
+          "enhanced_count": 611,
+          "enhanced_dollars": 1812078,
+          "total_dollars": 5228719
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2269,
+          "basic_dollars": 3016236,
+          "enhanced_count": 629,
+          "enhanced_dollars": 1941500,
+          "total_dollars": 4957736
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2029,
+          "basic_dollars": 2614910,
+          "enhanced_count": 635,
+          "enhanced_dollars": 1969727,
+          "total_dollars": 4584637
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1849,
+          "basic_dollars": 1890226,
+          "enhanced_count": 619,
+          "enhanced_dollars": 1830723,
+          "total_dollars": 3720949
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1659,
+          "basic_dollars": 1757522,
+          "enhanced_count": 623,
+          "enhanced_dollars": 1798235,
+          "total_dollars": 3555757
+        }
+      }
+    },
+    {
+      "id": "280207",
+      "nces": "3604410",
+      "name": "Bellmore UFSD",
+      "orpts": "282007",
+      "chsd": false,
+      "chsd_group": "Bellmore-Merrick Central HS District",
+      "osc_star_fy2024_25": 1172571,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1086,
+        "basic_exemption": 1065,
+        "enhanced_credit": 3073.17,
+        "enhanced_exemption": 2986
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2098,
+          "basic_dollars": 2894894,
+          "enhanced_count": 409,
+          "enhanced_dollars": 1228998,
+          "total_dollars": 4123892
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1848,
+          "basic_dollars": 2522805,
+          "enhanced_count": 398,
+          "enhanced_dollars": 1223426,
+          "total_dollars": 3746231
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1704,
+          "basic_dollars": 2320205,
+          "enhanced_count": 373,
+          "enhanced_dollars": 1152495,
+          "total_dollars": 3472700
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1527,
+          "basic_dollars": 2031743,
+          "enhanced_count": 361,
+          "enhanced_dollars": 1159859,
+          "total_dollars": 3191602
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1336,
+          "basic_dollars": 1731077,
+          "enhanced_count": 366,
+          "enhanced_dollars": 1182892,
+          "total_dollars": 2913969
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1211,
+          "basic_dollars": 1250624,
+          "enhanced_count": 362,
+          "enhanced_dollars": 1118629,
+          "total_dollars": 2369253
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1095,
+          "basic_dollars": 1166905,
+          "enhanced_count": 362,
+          "enhanced_dollars": 1079182,
+          "total_dollars": 2246087
+        }
+      }
+    },
+    {
+      "id": "280208",
+      "nces": "3624990",
+      "name": "Roosevelt UFSD",
+      "orpts": "282008",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 1718176,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 809.73,
+        "basic_exemption": 807,
+        "enhanced_credit": 2267.24,
+        "enhanced_exemption": 2267.24
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 1716,
+          "basic_dollars": 1927000,
+          "enhanced_count": 296,
+          "enhanced_dollars": 716092,
+          "total_dollars": 2643092
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1592,
+          "basic_dollars": 1792411,
+          "enhanced_count": 306,
+          "enhanced_dollars": 740219,
+          "total_dollars": 2532630
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1549,
+          "basic_dollars": 1732508,
+          "enhanced_count": 293,
+          "enhanced_dollars": 719066,
+          "total_dollars": 2451574
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1448,
+          "basic_dollars": 1586606,
+          "enhanced_count": 316,
+          "enhanced_dollars": 808298,
+          "total_dollars": 2394904
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1294,
+          "basic_dollars": 1312581,
+          "enhanced_count": 320,
+          "enhanced_dollars": 806433,
+          "total_dollars": 2119014
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1258,
+          "basic_dollars": 1015192,
+          "enhanced_count": 292,
+          "enhanced_dollars": 702984,
+          "total_dollars": 1718176
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1159,
+          "basic_dollars": 934179,
+          "enhanced_count": 305,
+          "enhanced_dollars": 690634,
+          "total_dollars": 1624813
+        }
+      }
+    },
+    {
+      "id": "280209",
+      "nces": "3611550",
+      "name": "Freeport UFSD",
+      "orpts": "282009",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 4746526,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 909.6,
+        "basic_exemption": 897,
+        "enhanced_credit": 2546.87,
+        "enhanced_exemption": 2546.87
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 4439,
+          "basic_dollars": 5781753,
+          "enhanced_count": 961,
+          "enhanced_dollars": 2544776,
+          "total_dollars": 8326529
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 4128,
+          "basic_dollars": 5320441,
+          "enhanced_count": 950,
+          "enhanced_dollars": 2499740,
+          "total_dollars": 7820181
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 3921,
+          "basic_dollars": 5073533,
+          "enhanced_count": 878,
+          "enhanced_dollars": 2318102,
+          "total_dollars": 7391635
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 3581,
+          "basic_dollars": 4474545,
+          "enhanced_count": 902,
+          "enhanced_dollars": 2492874,
+          "total_dollars": 6967419
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 3205,
+          "basic_dollars": 3637184,
+          "enhanced_count": 904,
+          "enhanced_dollars": 2435481,
+          "total_dollars": 6072665
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 3002,
+          "basic_dollars": 2664240,
+          "enhanced_count": 839,
+          "enhanced_dollars": 2082286,
+          "total_dollars": 4746526
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2652,
+          "basic_dollars": 2368131,
+          "enhanced_count": 866,
+          "enhanced_dollars": 2075356,
+          "total_dollars": 4443487
+        }
+      }
+    },
+    {
+      "id": "280210",
+      "nces": "3603840",
+      "name": "Baldwin UFSD",
+      "orpts": "282010",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 6378813,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1108,
+        "basic_exemption": 1086,
+        "enhanced_credit": 3190.75,
+        "enhanced_exemption": 3190.75
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 5380,
+          "basic_dollars": 7962830,
+          "enhanced_count": 928,
+          "enhanced_dollars": 2878637,
+          "total_dollars": 10841467
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 4891,
+          "basic_dollars": 7176548,
+          "enhanced_count": 877,
+          "enhanced_dollars": 2748525,
+          "total_dollars": 9925073
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 4620,
+          "basic_dollars": 6768303,
+          "enhanced_count": 843,
+          "enhanced_dollars": 2674267,
+          "total_dollars": 9442570
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 4212,
+          "basic_dollars": 6037681,
+          "enhanced_count": 853,
+          "enhanced_dollars": 2832986,
+          "total_dollars": 8870667
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 3807,
+          "basic_dollars": 5157772,
+          "enhanced_count": 825,
+          "enhanced_dollars": 2714806,
+          "total_dollars": 7872578
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 3498,
+          "basic_dollars": 3794465,
+          "enhanced_count": 818,
+          "enhanced_dollars": 2584348,
+          "total_dollars": 6378813
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 3158,
+          "basic_dollars": 3497435,
+          "enhanced_count": 848,
+          "enhanced_dollars": 2567901,
+          "total_dollars": 6065336
+        }
+      }
+    },
+    {
+      "id": "280211",
+      "nces": "3621570",
+      "name": "Oceanside UFSD",
+      "orpts": "282011",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 6542604,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 929,
+        "basic_exemption": 911,
+        "enhanced_credit": 2628.33,
+        "enhanced_exemption": 2628.33
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 6485,
+          "basic_dollars": 8047344,
+          "enhanced_count": 1330,
+          "enhanced_dollars": 3428378,
+          "total_dollars": 11475722
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 5824,
+          "basic_dollars": 7130546,
+          "enhanced_count": 1295,
+          "enhanced_dollars": 3396375,
+          "total_dollars": 10526921
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 5396,
+          "basic_dollars": 6594580,
+          "enhanced_count": 1219,
+          "enhanced_dollars": 3220587,
+          "total_dollars": 9815167
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 4875,
+          "basic_dollars": 5824274,
+          "enhanced_count": 1179,
+          "enhanced_dollars": 3240178,
+          "total_dollars": 9064452
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 4341,
+          "basic_dollars": 4919686,
+          "enhanced_count": 1159,
+          "enhanced_dollars": 3142339,
+          "total_dollars": 8062025
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 3973,
+          "basic_dollars": 3599242,
+          "enhanced_count": 1128,
+          "enhanced_dollars": 2943362,
+          "total_dollars": 6542604
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 3504,
+          "basic_dollars": 3227206,
+          "enhanced_count": 1145,
+          "enhanced_dollars": 2854001,
+          "total_dollars": 6081207
+        }
+      }
+    },
+    {
+      "id": "280212",
+      "nces": "3618210",
+      "name": "Malverne UFSD",
+      "orpts": "282012",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 2821306,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1003,
+        "basic_exemption": 983,
+        "enhanced_credit": 2882.07,
+        "enhanced_exemption": 2882.07
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2358,
+          "basic_dollars": 3417056,
+          "enhanced_count": 496,
+          "enhanced_dollars": 1565195,
+          "total_dollars": 4982251
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2148,
+          "basic_dollars": 3081960,
+          "enhanced_count": 478,
+          "enhanced_dollars": 1536955,
+          "total_dollars": 4618915
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2040,
+          "basic_dollars": 2914013,
+          "enhanced_count": 441,
+          "enhanced_dollars": 1431461,
+          "total_dollars": 4345474
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1865,
+          "basic_dollars": 2602039,
+          "enhanced_count": 438,
+          "enhanced_dollars": 1478890,
+          "total_dollars": 4080929
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1680,
+          "basic_dollars": 2123912,
+          "enhanced_count": 450,
+          "enhanced_dollars": 1422795,
+          "total_dollars": 3546707
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1591,
+          "basic_dollars": 1563506,
+          "enhanced_count": 427,
+          "enhanced_dollars": 1257800,
+          "total_dollars": 2821306
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1407,
+          "basic_dollars": 1412589,
+          "enhanced_count": 455,
+          "enhanced_dollars": 1279086,
+          "total_dollars": 2691675
+        }
+      }
+    },
+    {
+      "id": "280213",
+      "nces": "3629430",
+      "name": "Valley Stream 13 UFSD",
+      "orpts": "282013",
+      "chsd": false,
+      "chsd_group": "Valley Stream Central HS District",
+      "osc_star_fy2024_25": 2450879,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 797,
+        "basic_exemption": 781,
+        "enhanced_credit": 2296.53,
+        "enhanced_exemption": 2296.53
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 4776,
+          "basic_dollars": 5989441,
+          "enhanced_count": 1166,
+          "enhanced_dollars": 3050882,
+          "total_dollars": 9040323
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 4342,
+          "basic_dollars": 5389439,
+          "enhanced_count": 1119,
+          "enhanced_dollars": 2983248,
+          "total_dollars": 8372687
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 4088,
+          "basic_dollars": 5051873,
+          "enhanced_count": 1064,
+          "enhanced_dollars": 2870659,
+          "total_dollars": 7922532
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 3716,
+          "basic_dollars": 4478311,
+          "enhanced_count": 1051,
+          "enhanced_dollars": 2952101,
+          "total_dollars": 7430412
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 3385,
+          "basic_dollars": 3443821,
+          "enhanced_count": 1018,
+          "enhanced_dollars": 2500769,
+          "total_dollars": 5944590
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 3120,
+          "basic_dollars": 2432021,
+          "enhanced_count": 976,
+          "enhanced_dollars": 2206861,
+          "total_dollars": 4638882
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2795,
+          "basic_dollars": 2232385,
+          "enhanced_count": 995,
+          "enhanced_dollars": 2177673,
+          "total_dollars": 4410058
+        }
+      }
+    },
+    {
+      "id": "280214",
+      "nces": "3631710",
+      "name": "Hewlett-Woodmere UFSD",
+      "orpts": "282014",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3085410,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1163,
+        "basic_exemption": 1141,
+        "enhanced_credit": 3300.04,
+        "enhanced_exemption": 3300.04
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2875,
+          "basic_dollars": 4963909,
+          "enhanced_count": 469,
+          "enhanced_dollars": 1723353,
+          "total_dollars": 6687262
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2530,
+          "basic_dollars": 4258348,
+          "enhanced_count": 448,
+          "enhanced_dollars": 1630336,
+          "total_dollars": 5888684
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2287,
+          "basic_dollars": 3873397,
+          "enhanced_count": 425,
+          "enhanced_dollars": 1559836,
+          "total_dollars": 5433233
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1984,
+          "basic_dollars": 3281608,
+          "enhanced_count": 431,
+          "enhanced_dollars": 1657038,
+          "total_dollars": 4938646
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1719,
+          "basic_dollars": 2514339,
+          "enhanced_count": 415,
+          "enhanced_dollars": 1470906,
+          "total_dollars": 3985245
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1513,
+          "basic_dollars": 1709949,
+          "enhanced_count": 420,
+          "enhanced_dollars": 1375461,
+          "total_dollars": 3085410
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1307,
+          "basic_dollars": 1511116,
+          "enhanced_count": 411,
+          "enhanced_dollars": 1300822,
+          "total_dollars": 2811938
+        }
+      }
+    },
+    {
+      "id": "280215",
+      "nces": "3616830",
+      "name": "Lawrence UFSD",
+      "orpts": "282015",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 1559913,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 443.64,
+        "basic_exemption": 440,
+        "enhanced_credit": 1242.18,
+        "enhanced_exemption": 1242.18
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 3724,
+          "basic_dollars": 2670362,
+          "enhanced_count": 639,
+          "enhanced_dollars": 979869,
+          "total_dollars": 3650231
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 3259,
+          "basic_dollars": 2273680,
+          "enhanced_count": 617,
+          "enhanced_dollars": 950278,
+          "total_dollars": 3223958
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2982,
+          "basic_dollars": 2088580,
+          "enhanced_count": 578,
+          "enhanced_dollars": 887659,
+          "total_dollars": 2976239
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2642,
+          "basic_dollars": 1806890,
+          "enhanced_count": 581,
+          "enhanced_dollars": 937345,
+          "total_dollars": 2744235
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2235,
+          "basic_dollars": 1285210,
+          "enhanced_count": 556,
+          "enhanced_dollars": 777353,
+          "total_dollars": 2062563
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 2026,
+          "basic_dollars": 879135,
+          "enhanced_count": 536,
+          "enhanced_dollars": 680778,
+          "total_dollars": 1559913
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1729,
+          "basic_dollars": 763984,
+          "enhanced_count": 506,
+          "enhanced_dollars": 621519,
+          "total_dollars": 1385503
+        }
+      }
+    },
+    {
+      "id": "280216",
+      "nces": "3610620",
+      "name": "Elmont UFSD",
+      "orpts": "282016",
+      "chsd": false,
+      "chsd_group": "Sewanhaka Central HS District",
+      "osc_star_fy2024_25": 3244725,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 858,
+        "basic_exemption": 841,
+        "enhanced_credit": 2432.72,
+        "enhanced_exemption": 2432.72
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 6558,
+          "basic_dollars": 7689029,
+          "enhanced_count": 1242,
+          "enhanced_dollars": 3167723,
+          "total_dollars": 10856752
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 6074,
+          "basic_dollars": 7070468,
+          "enhanced_count": 1210,
+          "enhanced_dollars": 3132709,
+          "total_dollars": 10203177
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 5855,
+          "basic_dollars": 6793550,
+          "enhanced_count": 1139,
+          "enhanced_dollars": 2975421,
+          "total_dollars": 9768971
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 5453,
+          "basic_dollars": 6168134,
+          "enhanced_count": 1138,
+          "enhanced_dollars": 3101564,
+          "total_dollars": 9269698
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 4948,
+          "basic_dollars": 5074002,
+          "enhanced_count": 1168,
+          "enhanced_dollars": 3016895,
+          "total_dollars": 8090897
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 4654,
+          "basic_dollars": 3841438,
+          "enhanced_count": 1109,
+          "enhanced_dollars": 2760819,
+          "total_dollars": 6602257
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 4127,
+          "basic_dollars": 3522444,
+          "enhanced_count": 1175,
+          "enhanced_dollars": 2783861,
+          "total_dollars": 6306305
+        }
+      }
+    },
+    {
+      "id": "280217",
+      "nces": "3611460",
+      "name": "Franklin Square UFSD",
+      "orpts": "282017",
+      "chsd": false,
+      "chsd_group": "Sewanhaka Central HS District",
+      "osc_star_fy2024_25": 1677623,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 566.51,
+        "basic_exemption": 566.51,
+        "enhanced_credit": 1586.21,
+        "enhanced_exemption": 1586.21
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 4064,
+          "basic_dollars": 4166963,
+          "enhanced_count": 1106,
+          "enhanced_dollars": 2470792,
+          "total_dollars": 6637755
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 3654,
+          "basic_dollars": 3700580,
+          "enhanced_count": 1096,
+          "enhanced_dollars": 2492579,
+          "total_dollars": 6193159
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 3460,
+          "basic_dollars": 3487847,
+          "enhanced_count": 1039,
+          "enhanced_dollars": 2381883,
+          "total_dollars": 5869730
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 3183,
+          "basic_dollars": 3118262,
+          "enhanced_count": 1022,
+          "enhanced_dollars": 2428254,
+          "total_dollars": 5546516
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2897,
+          "basic_dollars": 2432510,
+          "enhanced_count": 1004,
+          "enhanced_dollars": 2105607,
+          "total_dollars": 4538117
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 2705,
+          "basic_dollars": 1641808,
+          "enhanced_count": 980,
+          "enhanced_dollars": 1781912,
+          "total_dollars": 3423720
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2466,
+          "basic_dollars": 1397359,
+          "enhanced_count": 985,
+          "enhanced_dollars": 1560741,
+          "total_dollars": 2958100
+        }
+      }
+    },
+    {
+      "id": "280218",
+      "nces": "3611760",
+      "name": "Garden City UFSD",
+      "orpts": "282018",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 1751140,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 704,
+        "basic_exemption": 690,
+        "enhanced_credit": 1975.87,
+        "enhanced_exemption": 1953
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2962,
+          "basic_dollars": 2627775,
+          "enhanced_count": 465,
+          "enhanced_dollars": 889416,
+          "total_dollars": 3517191
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2564,
+          "basic_dollars": 2231846,
+          "enhanced_count": 438,
+          "enhanced_dollars": 860000,
+          "total_dollars": 3091846
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2309,
+          "basic_dollars": 2012048,
+          "enhanced_count": 418,
+          "enhanced_dollars": 821881,
+          "total_dollars": 2833929
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2061,
+          "basic_dollars": 1761782,
+          "enhanced_count": 405,
+          "enhanced_dollars": 829729,
+          "total_dollars": 2591511
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1716,
+          "basic_dollars": 1414530,
+          "enhanced_count": 386,
+          "enhanced_dollars": 779692,
+          "total_dollars": 2194222
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1532,
+          "basic_dollars": 1011002,
+          "enhanced_count": 379,
+          "enhanced_dollars": 740138,
+          "total_dollars": 1751140
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1307,
+          "basic_dollars": 893872,
+          "enhanced_count": 353,
+          "enhanced_dollars": 671522,
+          "total_dollars": 1565394
+        }
+      }
+    },
+    {
+      "id": "280219",
+      "nces": "3609960",
+      "name": "East Rockaway UFSD",
+      "orpts": "282019",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 2101866,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1055,
+        "basic_exemption": 1035,
+        "enhanced_credit": 3001.97,
+        "enhanced_exemption": 3001.97
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 1594,
+          "basic_dollars": 2285394,
+          "enhanced_count": 414,
+          "enhanced_dollars": 1246148,
+          "total_dollars": 3531542
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1445,
+          "basic_dollars": 2042357,
+          "enhanced_count": 407,
+          "enhanced_dollars": 1224091,
+          "total_dollars": 3266448
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1351,
+          "basic_dollars": 1927531,
+          "enhanced_count": 392,
+          "enhanced_dollars": 1185677,
+          "total_dollars": 3113208
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1230,
+          "basic_dollars": 1693427,
+          "enhanced_count": 385,
+          "enhanced_dollars": 1213570,
+          "total_dollars": 2906997
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1115,
+          "basic_dollars": 1432216,
+          "enhanced_count": 375,
+          "enhanced_dollars": 1166617,
+          "total_dollars": 2598833
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1023,
+          "basic_dollars": 1060702,
+          "enhanced_count": 351,
+          "enhanced_dollars": 1041164,
+          "total_dollars": 2101866
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 912,
+          "basic_dollars": 956758,
+          "enhanced_count": 354,
+          "enhanced_dollars": 1014687,
+          "total_dollars": 1971445
+        }
+      }
+    },
+    {
+      "id": "280220",
+      "nces": "3617910",
+      "name": "Lynbrook UFSD",
+      "orpts": "282020",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3153907,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1069,
+        "basic_exemption": 1048,
+        "enhanced_credit": 3044.14,
+        "enhanced_exemption": 3044.14
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2797,
+          "basic_dollars": 4080766,
+          "enhanced_count": 579,
+          "enhanced_dollars": 1757254,
+          "total_dollars": 5838020
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2502,
+          "basic_dollars": 3573483,
+          "enhanced_count": 555,
+          "enhanced_dollars": 1701566,
+          "total_dollars": 5275049
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2288,
+          "basic_dollars": 3317247,
+          "enhanced_count": 528,
+          "enhanced_dollars": 1618622,
+          "total_dollars": 4935869
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2055,
+          "basic_dollars": 2873412,
+          "enhanced_count": 517,
+          "enhanced_dollars": 1655468,
+          "total_dollars": 4528880
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1812,
+          "basic_dollars": 2368494,
+          "enhanced_count": 504,
+          "enhanced_dollars": 1577574,
+          "total_dollars": 3946068
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1639,
+          "basic_dollars": 1709470,
+          "enhanced_count": 484,
+          "enhanced_dollars": 1444437,
+          "total_dollars": 3153907
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1454,
+          "basic_dollars": 1538930,
+          "enhanced_count": 492,
+          "enhanced_dollars": 1411403,
+          "total_dollars": 2950333
+        }
+      }
+    },
+    {
+      "id": "280221",
+      "nces": "3624780",
+      "name": "Rockville Centre UFSD",
+      "orpts": "282021",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 2790016,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1089,
+        "basic_exemption": 1068,
+        "enhanced_credit": 3147.01,
+        "enhanced_exemption": 2856
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 3036,
+          "basic_dollars": 4005771,
+          "enhanced_count": 502,
+          "enhanced_dollars": 1373530,
+          "total_dollars": 5379301
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2701,
+          "basic_dollars": 3454765,
+          "enhanced_count": 481,
+          "enhanced_dollars": 1336260,
+          "total_dollars": 4791025
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2431,
+          "basic_dollars": 3129883,
+          "enhanced_count": 442,
+          "enhanced_dollars": 1200127,
+          "total_dollars": 4330010
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2154,
+          "basic_dollars": 2739269,
+          "enhanced_count": 434,
+          "enhanced_dollars": 1233638,
+          "total_dollars": 3972907
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1836,
+          "basic_dollars": 2243748,
+          "enhanced_count": 428,
+          "enhanced_dollars": 1236034,
+          "total_dollars": 3479782
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1655,
+          "basic_dollars": 1636665,
+          "enhanced_count": 416,
+          "enhanced_dollars": 1153351,
+          "total_dollars": 2790016
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1425,
+          "basic_dollars": 1474073,
+          "enhanced_count": 395,
+          "enhanced_dollars": 1097121,
+          "total_dollars": 2571194
+        }
+      }
+    },
+    {
+      "id": "280222",
+      "nces": "3611160",
+      "name": "Floral Park-Bellerose UFSD",
+      "orpts": "282022",
+      "chsd": false,
+      "chsd_group": "Sewanhaka Central HS District",
+      "osc_star_fy2024_25": 1271225,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 767,
+        "basic_exemption": 752,
+        "enhanced_credit": 2184.58,
+        "enhanced_exemption": 2184.58
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 3234,
+          "basic_dollars": 3303931,
+          "enhanced_count": 633,
+          "enhanced_dollars": 1417189,
+          "total_dollars": 4721120
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2905,
+          "basic_dollars": 2912653,
+          "enhanced_count": 625,
+          "enhanced_dollars": 1376605,
+          "total_dollars": 4289258
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2725,
+          "basic_dollars": 2723039,
+          "enhanced_count": 593,
+          "enhanced_dollars": 1313376,
+          "total_dollars": 4036415
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2449,
+          "basic_dollars": 2409276,
+          "enhanced_count": 575,
+          "enhanced_dollars": 1328634,
+          "total_dollars": 3737910
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2164,
+          "basic_dollars": 1987708,
+          "enhanced_count": 585,
+          "enhanced_dollars": 1312333,
+          "total_dollars": 3300041
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1995,
+          "basic_dollars": 1487763,
+          "enhanced_count": 577,
+          "enhanced_dollars": 1257583,
+          "total_dollars": 2745346
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1778,
+          "basic_dollars": 1362507,
+          "enhanced_count": 569,
+          "enhanced_dollars": 1190217,
+          "total_dollars": 2552724
+        }
+      }
+    },
+    {
+      "id": "280223",
+      "nces": "3629850",
+      "name": "Wantagh UFSD",
+      "orpts": "282023",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3510716,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1035,
+        "basic_exemption": 1015,
+        "enhanced_credit": 2941.15,
+        "enhanced_exemption": 2941.15
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 3230,
+          "basic_dollars": 4441976,
+          "enhanced_count": 565,
+          "enhanced_dollars": 1690255,
+          "total_dollars": 6132231
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2843,
+          "basic_dollars": 3871601,
+          "enhanced_count": 551,
+          "enhanced_dollars": 1683428,
+          "total_dollars": 5555029
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2618,
+          "basic_dollars": 3556597,
+          "enhanced_count": 527,
+          "enhanced_dollars": 1619609,
+          "total_dollars": 5176206
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2367,
+          "basic_dollars": 3145089,
+          "enhanced_count": 518,
+          "enhanced_dollars": 1661068,
+          "total_dollars": 4806157
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2119,
+          "basic_dollars": 2669325,
+          "enhanced_count": 517,
+          "enhanced_dollars": 1623045,
+          "total_dollars": 4292370
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1912,
+          "basic_dollars": 1929492,
+          "enhanced_count": 524,
+          "enhanced_dollars": 1581224,
+          "total_dollars": 3510716
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1700,
+          "basic_dollars": 1752761,
+          "enhanced_count": 535,
+          "enhanced_dollars": 1542026,
+          "total_dollars": 3294787
+        }
+      }
+    },
+    {
+      "id": "280224",
+      "nces": "3629460",
+      "name": "Valley Stream 24 UFSD",
+      "orpts": "282024",
+      "chsd": false,
+      "chsd_group": "Valley Stream Central HS District",
+      "osc_star_fy2024_25": 914991,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 847,
+        "basic_exemption": 831,
+        "enhanced_credit": 2406.69,
+        "enhanced_exemption": 2406.69
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 1964,
+          "basic_dollars": 2312786,
+          "enhanced_count": 386,
+          "enhanced_dollars": 991309,
+          "total_dollars": 3304095
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1781,
+          "basic_dollars": 2080926,
+          "enhanced_count": 372,
+          "enhanced_dollars": 968813,
+          "total_dollars": 3049739
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1676,
+          "basic_dollars": 1948070,
+          "enhanced_count": 364,
+          "enhanced_dollars": 962474,
+          "total_dollars": 2910544
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1528,
+          "basic_dollars": 1732435,
+          "enhanced_count": 357,
+          "enhanced_dollars": 984051,
+          "total_dollars": 2716486
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1375,
+          "basic_dollars": 1449401,
+          "enhanced_count": 351,
+          "enhanced_dollars": 928307,
+          "total_dollars": 2377708
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1286,
+          "basic_dollars": 1066353,
+          "enhanced_count": 333,
+          "enhanced_dollars": 829821,
+          "total_dollars": 1896174
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1181,
+          "basic_dollars": 996994,
+          "enhanced_count": 326,
+          "enhanced_dollars": 769978,
+          "total_dollars": 1766972
+        }
+      }
+    },
+    {
+      "id": "280225",
+      "nces": "3619110",
+      "name": "Merrick UFSD",
+      "orpts": "282025",
+      "chsd": false,
+      "chsd_group": "Bellmore-Merrick Central HS District",
+      "osc_star_fy2024_25": 1717531,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1116,
+        "basic_exemption": 1094,
+        "enhanced_credit": 3169.77,
+        "enhanced_exemption": 3169.77
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 3043,
+          "basic_dollars": 4485721,
+          "enhanced_count": 516,
+          "enhanced_dollars": 1659819,
+          "total_dollars": 6145540
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2617,
+          "basic_dollars": 3817352,
+          "enhanced_count": 509,
+          "enhanced_dollars": 1674944,
+          "total_dollars": 5492296
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2364,
+          "basic_dollars": 3435040,
+          "enhanced_count": 488,
+          "enhanced_dollars": 1614644,
+          "total_dollars": 5049684
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2112,
+          "basic_dollars": 2994008,
+          "enhanced_count": 484,
+          "enhanced_dollars": 1655357,
+          "total_dollars": 4649365
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1847,
+          "basic_dollars": 2489220,
+          "enhanced_count": 479,
+          "enhanced_dollars": 1618395,
+          "total_dollars": 4107615
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1638,
+          "basic_dollars": 1765332,
+          "enhanced_count": 480,
+          "enhanced_dollars": 1551860,
+          "total_dollars": 3317192
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1442,
+          "basic_dollars": 1600489,
+          "enhanced_count": 482,
+          "enhanced_dollars": 1498381,
+          "total_dollars": 3098870
+        }
+      }
+    },
+    {
+      "id": "280226",
+      "nces": "3615510",
+      "name": "Island Trees UFSD",
+      "orpts": "282026",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 2813645,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 734.82,
+        "basic_exemption": 734.82,
+        "enhanced_credit": 2057.51,
+        "enhanced_exemption": 2057.51
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2683,
+          "basic_dollars": 3186474,
+          "enhanced_count": 701,
+          "enhanced_dollars": 1808027,
+          "total_dollars": 4994501
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2472,
+          "basic_dollars": 2913728,
+          "enhanced_count": 672,
+          "enhanced_dollars": 1745597,
+          "total_dollars": 4659325
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2350,
+          "basic_dollars": 2753686,
+          "enhanced_count": 640,
+          "enhanced_dollars": 1683653,
+          "total_dollars": 4437339
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2155,
+          "basic_dollars": 2453739,
+          "enhanced_count": 630,
+          "enhanced_dollars": 1723381,
+          "total_dollars": 4177120
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1946,
+          "basic_dollars": 2007273,
+          "enhanced_count": 646,
+          "enhanced_dollars": 1659810,
+          "total_dollars": 3667083
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1827,
+          "basic_dollars": 1391559,
+          "enhanced_count": 625,
+          "enhanced_dollars": 1422086,
+          "total_dollars": 2813645
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1665,
+          "basic_dollars": 1223402,
+          "enhanced_count": 643,
+          "enhanced_dollars": 1320092,
+          "total_dollars": 2543494
+        }
+      }
+    },
+    {
+      "id": "280227",
+      "nces": "3630660",
+      "name": "West Hempstead UFSD",
+      "orpts": "282027",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 2787947,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 896,
+        "basic_exemption": 879,
+        "enhanced_credit": 2544.19,
+        "enhanced_exemption": 2544.19
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2675,
+          "basic_dollars": 3363027,
+          "enhanced_count": 596,
+          "enhanced_dollars": 1629427,
+          "total_dollars": 4992454
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2443,
+          "basic_dollars": 3041706,
+          "enhanced_count": 564,
+          "enhanced_dollars": 1565288,
+          "total_dollars": 4606994
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2284,
+          "basic_dollars": 2830755,
+          "enhanced_count": 532,
+          "enhanced_dollars": 1488391,
+          "total_dollars": 4319146
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2068,
+          "basic_dollars": 2491039,
+          "enhanced_count": 535,
+          "enhanced_dollars": 1556940,
+          "total_dollars": 4047979
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1847,
+          "basic_dollars": 2032531,
+          "enhanced_count": 512,
+          "enhanced_dollars": 1408842,
+          "total_dollars": 3441373
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1710,
+          "basic_dollars": 1493579,
+          "enhanced_count": 496,
+          "enhanced_dollars": 1294368,
+          "total_dollars": 2787947
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1550,
+          "basic_dollars": 1375867,
+          "enhanced_count": 491,
+          "enhanced_dollars": 1217959,
+          "total_dollars": 2593826
+        }
+      }
+    },
+    {
+      "id": "280229",
+      "nces": "3621120",
+      "name": "North Merrick UFSD",
+      "orpts": "282029",
+      "chsd": false,
+      "chsd_group": "Bellmore-Merrick Central HS District",
+      "osc_star_fy2024_25": 1604508,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1006,
+        "basic_exemption": 986,
+        "enhanced_credit": 2861.61,
+        "enhanced_exemption": 2861.61
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2547,
+          "basic_dollars": 3545980,
+          "enhanced_count": 533,
+          "enhanced_dollars": 1578926,
+          "total_dollars": 5124906
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2223,
+          "basic_dollars": 3060144,
+          "enhanced_count": 532,
+          "enhanced_dollars": 1599608,
+          "total_dollars": 4659752
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2048,
+          "basic_dollars": 2807686,
+          "enhanced_count": 500,
+          "enhanced_dollars": 1517238,
+          "total_dollars": 4324924
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1849,
+          "basic_dollars": 2464470,
+          "enhanced_count": 487,
+          "enhanced_dollars": 1535276,
+          "total_dollars": 3999746
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1671,
+          "basic_dollars": 2053257,
+          "enhanced_count": 484,
+          "enhanced_dollars": 1455663,
+          "total_dollars": 3508920
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1502,
+          "basic_dollars": 1471369,
+          "enhanced_count": 492,
+          "enhanced_dollars": 1414716,
+          "total_dollars": 2886085
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1347,
+          "basic_dollars": 1350619,
+          "enhanced_count": 480,
+          "enhanced_dollars": 1314715,
+          "total_dollars": 2665334
+        }
+      }
+    },
+    {
+      "id": "280230",
+      "nces": "3629490",
+      "name": "Valley Stream 30 UFSD",
+      "orpts": "282030",
+      "chsd": false,
+      "chsd_group": "Valley Stream Central HS District",
+      "osc_star_fy2024_25": 991106,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 852.43,
+        "basic_exemption": 849,
+        "enhanced_credit": 2386.79,
+        "enhanced_exemption": 2386.79
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2472,
+          "basic_dollars": 2950434,
+          "enhanced_count": 374,
+          "enhanced_dollars": 970348,
+          "total_dollars": 3920782
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2269,
+          "basic_dollars": 2694683,
+          "enhanced_count": 361,
+          "enhanced_dollars": 947149,
+          "total_dollars": 3641832
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2165,
+          "basic_dollars": 2558328,
+          "enhanced_count": 341,
+          "enhanced_dollars": 909705,
+          "total_dollars": 3468033
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2004,
+          "basic_dollars": 2322029,
+          "enhanced_count": 338,
+          "enhanced_dollars": 945297,
+          "total_dollars": 3267326
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1806,
+          "basic_dollars": 1937815,
+          "enhanced_count": 350,
+          "enhanced_dollars": 937831,
+          "total_dollars": 2875646
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1685,
+          "basic_dollars": 1428365,
+          "enhanced_count": 327,
+          "enhanced_dollars": 831554,
+          "total_dollars": 2259919
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1532,
+          "basic_dollars": 1302707,
+          "enhanced_count": 348,
+          "enhanced_dollars": 828410,
+          "total_dollars": 2131117
+        }
+      }
+    },
+    {
+      "id": "280231",
+      "nces": "3615480",
+      "name": "Island Park UFSD",
+      "orpts": "282031",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 973494,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 836,
+        "basic_exemption": 794,
+        "enhanced_credit": 1949,
+        "enhanced_exemption": 1731
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 1144,
+          "basic_dollars": 907869,
+          "enhanced_count": 265,
+          "enhanced_dollars": 458559,
+          "total_dollars": 1366428
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1031,
+          "basic_dollars": 809223,
+          "enhanced_count": 258,
+          "enhanced_dollars": 455880,
+          "total_dollars": 1265103
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 968,
+          "basic_dollars": 756900,
+          "enhanced_count": 246,
+          "enhanced_dollars": 437518,
+          "total_dollars": 1194418
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 887,
+          "basic_dollars": 676065,
+          "enhanced_count": 247,
+          "enhanced_dollars": 455770,
+          "total_dollars": 1131835
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 795,
+          "basic_dollars": 596491,
+          "enhanced_count": 243,
+          "enhanced_dollars": 455372,
+          "total_dollars": 1051863
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 729,
+          "basic_dollars": 502248,
+          "enhanced_count": 228,
+          "enhanced_dollars": 471246,
+          "total_dollars": 973494
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 619,
+          "basic_dollars": 433957,
+          "enhanced_count": 248,
+          "enhanced_dollars": 486817,
+          "total_dollars": 920774
+        }
+      }
+    },
+    {
+      "id": "280251",
+      "nces": "3629520",
+      "name": "Valley Stream Central HS District",
+      "orpts": "282051",
+      "chsd": true,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 4438000,
+      "max_savings": null,
+      "years": {
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null
+      },
+      "components": [
+        {
+          "id": "280213",
+          "name": "Valley Stream 13 UFSD"
+        },
+        {
+          "id": "280224",
+          "name": "Valley Stream 24 UFSD"
+        },
+        {
+          "id": "280230",
+          "name": "Valley Stream 30 UFSD"
+        }
+      ]
+    },
+    {
+      "id": "280252",
+      "nces": "3626520",
+      "name": "Sewanhaka Central HS District",
+      "orpts": "282052",
+      "chsd": true,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 8491706,
+      "max_savings": null,
+      "years": {
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null
+      },
+      "components": [
+        {
+          "id": "280216",
+          "name": "Elmont UFSD"
+        },
+        {
+          "id": "280222",
+          "name": "Floral Park-Bellerose UFSD"
+        },
+        {
+          "id": "280217",
+          "name": "Franklin Square UFSD"
+        },
+        {
+          "id": "280405",
+          "name": "New Hyde Park-Garden City Park UFSD"
+        }
+      ]
+    },
+    {
+      "id": "280253",
+      "nces": "3619020",
+      "name": "Bellmore-Merrick Central HS District",
+      "orpts": "282053",
+      "chsd": true,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 6739813,
+      "max_savings": null,
+      "years": {
+        "2019": null,
+        "2020": null,
+        "2021": null,
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": null
+      },
+      "components": [
+        {
+          "id": "280207",
+          "name": "Bellmore UFSD"
+        },
+        {
+          "id": "280225",
+          "name": "Merrick UFSD"
+        },
+        {
+          "id": "280204",
+          "name": "North Bellmore UFSD"
+        },
+        {
+          "id": "280229",
+          "name": "North Merrick UFSD"
+        }
+      ]
+    },
+    {
+      "id": "280300",
+      "nces": "3617730",
+      "name": "Long Beach City SD",
+      "orpts": "281000",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3206519,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 619.13,
+        "basic_exemption": 613,
+        "enhanced_credit": 1733.57,
+        "enhanced_exemption": 1733.57
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 4983,
+          "basic_dollars": 3986334,
+          "enhanced_count": 991,
+          "enhanced_dollars": 1709179,
+          "total_dollars": 5695513
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 4607,
+          "basic_dollars": 3579736,
+          "enhanced_count": 950,
+          "enhanced_dollars": 1660190,
+          "total_dollars": 5239926
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 4301,
+          "basic_dollars": 3362652,
+          "enhanced_count": 867,
+          "enhanced_dollars": 1506818,
+          "total_dollars": 4869470
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 3839,
+          "basic_dollars": 2892977,
+          "enhanced_count": 842,
+          "enhanced_dollars": 1523355,
+          "total_dollars": 4416332
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 3287,
+          "basic_dollars": 2365749,
+          "enhanced_count": 836,
+          "enhanced_dollars": 1495518,
+          "total_dollars": 3861267
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 3024,
+          "basic_dollars": 1792435,
+          "enhanced_count": 813,
+          "enhanced_dollars": 1414084,
+          "total_dollars": 3206519
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2618,
+          "basic_dollars": 1566860,
+          "enhanced_count": 830,
+          "enhanced_dollars": 1382840,
+          "total_dollars": 2949700
+        }
+      }
+    },
+    {
+      "id": "280401",
+      "nces": "3630960",
+      "name": "Westbury UFSD",
+      "orpts": "282201",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3459607,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1156,
+        "basic_exemption": 1133,
+        "enhanced_credit": 3242.17,
+        "enhanced_exemption": 3242.17
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2344,
+          "basic_dollars": 3792047,
+          "enhanced_count": 579,
+          "enhanced_dollars": 1969030,
+          "total_dollars": 5761077
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2163,
+          "basic_dollars": 3490544,
+          "enhanced_count": 571,
+          "enhanced_dollars": 1951323,
+          "total_dollars": 5441867
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2063,
+          "basic_dollars": 3325448,
+          "enhanced_count": 534,
+          "enhanced_dollars": 1840951,
+          "total_dollars": 5166399
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1867,
+          "basic_dollars": 2919605,
+          "enhanced_count": 548,
+          "enhanced_dollars": 1964628,
+          "total_dollars": 4884233
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1640,
+          "basic_dollars": 2354086,
+          "enhanced_count": 547,
+          "enhanced_dollars": 1894829,
+          "total_dollars": 4248915
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1555,
+          "basic_dollars": 1776902,
+          "enhanced_count": 511,
+          "enhanced_dollars": 1682705,
+          "total_dollars": 3459607
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1405,
+          "basic_dollars": 1610362,
+          "enhanced_count": 526,
+          "enhanced_dollars": 1637076,
+          "total_dollars": 3247438
+        }
+      }
+    },
+    {
+      "id": "280402",
+      "nces": "3610050",
+      "name": "East Williston UFSD",
+      "orpts": "282202",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 878424,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 914,
+        "basic_exemption": 896,
+        "enhanced_credit": 2574.48,
+        "enhanced_exemption": 2537
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 1029,
+          "basic_dollars": 1195361,
+          "enhanced_count": 178,
+          "enhanced_dollars": 450149,
+          "total_dollars": 1645510
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 889,
+          "basic_dollars": 1019250,
+          "enhanced_count": 179,
+          "enhanced_dollars": 465377,
+          "total_dollars": 1484627
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 817,
+          "basic_dollars": 937352,
+          "enhanced_count": 162,
+          "enhanced_dollars": 421129,
+          "total_dollars": 1358481
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 726,
+          "basic_dollars": 812745,
+          "enhanced_count": 174,
+          "enhanced_dollars": 469127,
+          "total_dollars": 1281872
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 598,
+          "basic_dollars": 653930,
+          "enhanced_count": 168,
+          "enhanced_dollars": 456262,
+          "total_dollars": 1110192
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 524,
+          "basic_dollars": 456947,
+          "enhanced_count": 162,
+          "enhanced_dollars": 421477,
+          "total_dollars": 878424
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 464,
+          "basic_dollars": 417568,
+          "enhanced_count": 151,
+          "enhanced_dollars": 379544,
+          "total_dollars": 797112
+        }
+      }
+    },
+    {
+      "id": "280403",
+      "nces": "3625050",
+      "name": "Roslyn UFSD",
+      "orpts": "282203",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 1594599,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 881,
+        "basic_exemption": 864,
+        "enhanced_credit": 2507.24,
+        "enhanced_exemption": 2507.24
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2060,
+          "basic_dollars": 2371261,
+          "enhanced_count": 317,
+          "enhanced_dollars": 783185,
+          "total_dollars": 3154446
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1806,
+          "basic_dollars": 1996038,
+          "enhanced_count": 306,
+          "enhanced_dollars": 761166,
+          "total_dollars": 2757204
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1628,
+          "basic_dollars": 1828107,
+          "enhanced_count": 285,
+          "enhanced_dollars": 709421,
+          "total_dollars": 2537528
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1432,
+          "basic_dollars": 1578288,
+          "enhanced_count": 286,
+          "enhanced_dollars": 746854,
+          "total_dollars": 2325142
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1214,
+          "basic_dollars": 1253991,
+          "enhanced_count": 273,
+          "enhanced_dollars": 696831,
+          "total_dollars": 1950822
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1072,
+          "basic_dollars": 911679,
+          "enhanced_count": 278,
+          "enhanced_dollars": 682920,
+          "total_dollars": 1594599
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 934,
+          "basic_dollars": 823637,
+          "enhanced_count": 277,
+          "enhanced_dollars": 664035,
+          "total_dollars": 1487672
+        }
+      }
+    },
+    {
+      "id": "280404",
+      "nces": "3623580",
+      "name": "Port Washington UFSD",
+      "orpts": "282204",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 2357160,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 792,
+        "basic_exemption": 776,
+        "enhanced_credit": 2270.13,
+        "enhanced_exemption": 2076
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 3138,
+          "basic_dollars": 2956385,
+          "enhanced_count": 601,
+          "enhanced_dollars": 1221322,
+          "total_dollars": 4177707
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2748,
+          "basic_dollars": 2536715,
+          "enhanced_count": 578,
+          "enhanced_dollars": 1210512,
+          "total_dollars": 3747227
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2499,
+          "basic_dollars": 2320205,
+          "enhanced_count": 550,
+          "enhanced_dollars": 1149435,
+          "total_dollars": 3469640
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2248,
+          "basic_dollars": 2033878,
+          "enhanced_count": 539,
+          "enhanced_dollars": 1163625,
+          "total_dollars": 3197503
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1861,
+          "basic_dollars": 1653155,
+          "enhanced_count": 536,
+          "enhanced_dollars": 1178790,
+          "total_dollars": 2831945
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1672,
+          "basic_dollars": 1221206,
+          "enhanced_count": 525,
+          "enhanced_dollars": 1135954,
+          "total_dollars": 2357160
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1445,
+          "basic_dollars": 1094203,
+          "enhanced_count": 516,
+          "enhanced_dollars": 1084530,
+          "total_dollars": 2178733
+        }
+      }
+    },
+    {
+      "id": "280405",
+      "nces": "3620400",
+      "name": "New Hyde Park-Garden City Park UFSD",
+      "orpts": "282205",
+      "chsd": false,
+      "chsd_group": "Sewanhaka Central HS District",
+      "osc_star_fy2024_25": 1575501,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 756,
+        "basic_exemption": 741,
+        "enhanced_credit": 2169.98,
+        "enhanced_exemption": 2169.98
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 3785,
+          "basic_dollars": 3915658,
+          "enhanced_count": 856,
+          "enhanced_dollars": 1931659,
+          "total_dollars": 5847317
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 3393,
+          "basic_dollars": 3458110,
+          "enhanced_count": 864,
+          "enhanced_dollars": 2003111,
+          "total_dollars": 5461221
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 3188,
+          "basic_dollars": 3244565,
+          "enhanced_count": 827,
+          "enhanced_dollars": 1921880,
+          "total_dollars": 5166445
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2908,
+          "basic_dollars": 2886231,
+          "enhanced_count": 805,
+          "enhanced_dollars": 1940206,
+          "total_dollars": 4826437
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2623,
+          "basic_dollars": 2446245,
+          "enhanced_count": 786,
+          "enhanced_dollars": 1832717,
+          "total_dollars": 4278962
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 2455,
+          "basic_dollars": 1818992,
+          "enhanced_count": 752,
+          "enhanced_dollars": 1670465,
+          "total_dollars": 3489457
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2205,
+          "basic_dollars": 1670325,
+          "enhanced_count": 759,
+          "enhanced_dollars": 1608896,
+          "total_dollars": 3279221
+        }
+      }
+    },
+    {
+      "id": "280406",
+      "nces": "3618270",
+      "name": "Manhasset UFSD",
+      "orpts": "282206",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 656753,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 528,
+        "basic_exemption": 518,
+        "enhanced_credit": 1517.29,
+        "enhanced_exemption": 1423
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 1608,
+          "basic_dollars": 1048530,
+          "enhanced_count": 225,
+          "enhanced_dollars": 319860,
+          "total_dollars": 1368390
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1341,
+          "basic_dollars": 863143,
+          "enhanced_count": 213,
+          "enhanced_dollars": 313207,
+          "total_dollars": 1176350
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1220,
+          "basic_dollars": 781811,
+          "enhanced_count": 195,
+          "enhanced_dollars": 286184,
+          "total_dollars": 1067995
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1078,
+          "basic_dollars": 680481,
+          "enhanced_count": 195,
+          "enhanced_dollars": 298297,
+          "total_dollars": 978778
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 869,
+          "basic_dollars": 540038,
+          "enhanced_count": 197,
+          "enhanced_dollars": 305425,
+          "total_dollars": 845463
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 773,
+          "basic_dollars": 386220,
+          "enhanced_count": 181,
+          "enhanced_dollars": 270533,
+          "total_dollars": 656753
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 676,
+          "basic_dollars": 347198,
+          "enhanced_count": 179,
+          "enhanced_dollars": 256931,
+          "total_dollars": 604129
+        }
+      }
+    },
+    {
+      "id": "280407",
+      "nces": "3612510",
+      "name": "Great Neck UFSD",
+      "orpts": "282207",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3116443,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 667,
+        "basic_exemption": 654,
+        "enhanced_credit": 1855,
+        "enhanced_exemption": 1615
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 5694,
+          "basic_dollars": 4189614,
+          "enhanced_count": 872,
+          "enhanced_dollars": 1385755,
+          "total_dollars": 5575369
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 5169,
+          "basic_dollars": 3644994,
+          "enhanced_count": 832,
+          "enhanced_dollars": 1338436,
+          "total_dollars": 4983430
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 4665,
+          "basic_dollars": 3351062,
+          "enhanced_count": 772,
+          "enhanced_dollars": 1252123,
+          "total_dollars": 4603185
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 4218,
+          "basic_dollars": 2967999,
+          "enhanced_count": 738,
+          "enhanced_dollars": 1247705,
+          "total_dollars": 4215704
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 3652,
+          "basic_dollars": 2420588,
+          "enhanced_count": 737,
+          "enhanced_dollars": 1224640,
+          "total_dollars": 3645228
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 3314,
+          "basic_dollars": 1882518,
+          "enhanced_count": 738,
+          "enhanced_dollars": 1233925,
+          "total_dollars": 3116443
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2747,
+          "basic_dollars": 1659564,
+          "enhanced_count": 746,
+          "enhanced_dollars": 1248418,
+          "total_dollars": 2907982
+        }
+      }
+    },
+    {
+      "id": "280409",
+      "nces": "3614280",
+      "name": "Herricks UFSD",
+      "orpts": "282209",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3471245,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 817,
+        "basic_exemption": 801,
+        "enhanced_credit": 2298.84,
+        "enhanced_exemption": 2298.84
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 4032,
+          "basic_dollars": 4493328,
+          "enhanced_count": 796,
+          "enhanced_dollars": 1933692,
+          "total_dollars": 6427020
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 3617,
+          "basic_dollars": 3978406,
+          "enhanced_count": 763,
+          "enhanced_dollars": 1913174,
+          "total_dollars": 5891580
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 3324,
+          "basic_dollars": 3652953,
+          "enhanced_count": 729,
+          "enhanced_dollars": 1829928,
+          "total_dollars": 5482881
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 3026,
+          "basic_dollars": 3253198,
+          "enhanced_count": 693,
+          "enhanced_dollars": 1808551,
+          "total_dollars": 5061749
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2589,
+          "basic_dollars": 2596234,
+          "enhanced_count": 685,
+          "enhanced_dollars": 1716583,
+          "total_dollars": 4312817
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 2351,
+          "basic_dollars": 1882550,
+          "enhanced_count": 662,
+          "enhanced_dollars": 1588695,
+          "total_dollars": 3471245
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2065,
+          "basic_dollars": 1673714,
+          "enhanced_count": 653,
+          "enhanced_dollars": 1480880,
+          "total_dollars": 3154594
+        }
+      }
+    },
+    {
+      "id": "280410",
+      "nces": "3619500",
+      "name": "Mineola UFSD",
+      "orpts": "282210",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3422382,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 724.82,
+        "basic_exemption": 724,
+        "enhanced_credit": 2029.5,
+        "enhanced_exemption": 2029.5
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 3616,
+          "basic_dollars": 3709293,
+          "enhanced_count": 918,
+          "enhanced_dollars": 2044919,
+          "total_dollars": 5754212
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 3309,
+          "basic_dollars": 3318316,
+          "enhanced_count": 898,
+          "enhanced_dollars": 2034788,
+          "total_dollars": 5353104
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 3121,
+          "basic_dollars": 3126380,
+          "enhanced_count": 857,
+          "enhanced_dollars": 1947563,
+          "total_dollars": 5073943
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2855,
+          "basic_dollars": 2773047,
+          "enhanced_count": 843,
+          "enhanced_dollars": 1980496,
+          "total_dollars": 4753543
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2587,
+          "basic_dollars": 2341049,
+          "enhanced_count": 835,
+          "enhanced_dollars": 1881155,
+          "total_dollars": 4222204
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 2389,
+          "basic_dollars": 1707586,
+          "enhanced_count": 806,
+          "enhanced_dollars": 1714796,
+          "total_dollars": 3422382
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2124,
+          "basic_dollars": 1528026,
+          "enhanced_count": 806,
+          "enhanced_dollars": 1617648,
+          "total_dollars": 3145674
+        }
+      }
+    },
+    {
+      "id": "280411",
+      "nces": "3606540",
+      "name": "Carle Place UFSD",
+      "orpts": "282211",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 1571578,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 878,
+        "basic_exemption": 861,
+        "enhanced_credit": 2471.38,
+        "enhanced_exemption": 2456
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 1469,
+          "basic_dollars": 1652985,
+          "enhanced_count": 364,
+          "enhanced_dollars": 892790,
+          "total_dollars": 2545775
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1338,
+          "basic_dollars": 1489303,
+          "enhanced_count": 346,
+          "enhanced_dollars": 864242,
+          "total_dollars": 2353545
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1261,
+          "basic_dollars": 1397681,
+          "enhanced_count": 326,
+          "enhanced_dollars": 822456,
+          "total_dollars": 2220137
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1154,
+          "basic_dollars": 1245895,
+          "enhanced_count": 327,
+          "enhanced_dollars": 856354,
+          "total_dollars": 2102249
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1014,
+          "basic_dollars": 1064338,
+          "enhanced_count": 323,
+          "enhanced_dollars": 847795,
+          "total_dollars": 1912133
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 956,
+          "basic_dollars": 802910,
+          "enhanced_count": 305,
+          "enhanced_dollars": 768668,
+          "total_dollars": 1571578
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 851,
+          "basic_dollars": 739631,
+          "enhanced_count": 327,
+          "enhanced_dollars": 796002,
+          "total_dollars": 1535633
+        }
+      }
+    },
+    {
+      "id": "280501",
+      "nces": "3626370",
+      "name": "North Shore CSD",
+      "orpts": "282401",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 1862443,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 846,
+        "basic_exemption": 829,
+        "enhanced_credit": 2321,
+        "enhanced_exemption": 2060
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 2368,
+          "basic_dollars": 2230057,
+          "enhanced_count": 429,
+          "enhanced_dollars": 880758,
+          "total_dollars": 3110815
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 2106,
+          "basic_dollars": 1954819,
+          "enhanced_count": 417,
+          "enhanced_dollars": 879777,
+          "total_dollars": 2834596
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1932,
+          "basic_dollars": 1791023,
+          "enhanced_count": 393,
+          "enhanced_dollars": 831539,
+          "total_dollars": 2622562
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1746,
+          "basic_dollars": 1581481,
+          "enhanced_count": 386,
+          "enhanced_dollars": 848992,
+          "total_dollars": 2430473
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1484,
+          "basic_dollars": 1317143,
+          "enhanced_count": 386,
+          "enhanced_dollars": 856414,
+          "total_dollars": 2173557
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1358,
+          "basic_dollars": 1034150,
+          "enhanced_count": 363,
+          "enhanced_dollars": 828293,
+          "total_dollars": 1862443
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1186,
+          "basic_dollars": 931407,
+          "enhanced_count": 360,
+          "enhanced_dollars": 788148,
+          "total_dollars": 1719555
+        }
+      }
+    },
+    {
+      "id": "280502",
+      "nces": "3628560",
+      "name": "Syosset CSD",
+      "orpts": "282402",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 4203668,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1124,
+        "basic_exemption": 1102,
+        "enhanced_credit": 3215.17,
+        "enhanced_exemption": 3084
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 4544,
+          "basic_dollars": 6294810,
+          "enhanced_count": 831,
+          "enhanced_dollars": 2082316,
+          "total_dollars": 8377126
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 3942,
+          "basic_dollars": 5373373,
+          "enhanced_count": 789,
+          "enhanced_dollars": 2045929,
+          "total_dollars": 7419302
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 3546,
+          "basic_dollars": 4826213,
+          "enhanced_count": 738,
+          "enhanced_dollars": 1926631,
+          "total_dollars": 6752844
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 3119,
+          "basic_dollars": 4153531,
+          "enhanced_count": 715,
+          "enhanced_dollars": 1975632,
+          "total_dollars": 6129163
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2653,
+          "basic_dollars": 3468054,
+          "enhanced_count": 677,
+          "enhanced_dollars": 1899468,
+          "total_dollars": 5367522
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 2362,
+          "basic_dollars": 2467981,
+          "enhanced_count": 642,
+          "enhanced_dollars": 1735687,
+          "total_dollars": 4203668
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2051,
+          "basic_dollars": 2216802,
+          "enhanced_count": 625,
+          "enhanced_dollars": 1671999,
+          "total_dollars": 3888801
+        }
+      }
+    },
+    {
+      "id": "280503",
+      "nces": "3617700",
+      "name": "Locust Valley CSD",
+      "orpts": "282403",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 1607040,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 809,
+        "basic_exemption": 793,
+        "enhanced_credit": 2257,
+        "enhanced_exemption": 1965
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 1984,
+          "basic_dollars": 1784417,
+          "enhanced_count": 360,
+          "enhanced_dollars": 706212,
+          "total_dollars": 2490629
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1768,
+          "basic_dollars": 1571193,
+          "enhanced_count": 356,
+          "enhanced_dollars": 717305,
+          "total_dollars": 2288498
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1653,
+          "basic_dollars": 1467366,
+          "enhanced_count": 332,
+          "enhanced_dollars": 671107,
+          "total_dollars": 2138473
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1474,
+          "basic_dollars": 1279473,
+          "enhanced_count": 339,
+          "enhanced_dollars": 711834,
+          "total_dollars": 1991307
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 1279,
+          "basic_dollars": 1091539,
+          "enhanced_count": 349,
+          "enhanced_dollars": 744113,
+          "total_dollars": 1835652
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 1166,
+          "basic_dollars": 849175,
+          "enhanced_count": 347,
+          "enhanced_dollars": 757865,
+          "total_dollars": 1607040
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1033,
+          "basic_dollars": 773030,
+          "enhanced_count": 355,
+          "enhanced_dollars": 743760,
+          "total_dollars": 1516790
+        }
+      }
+    },
+    {
+      "id": "280504",
+      "nces": "3623220",
+      "name": "Plainview-Old Bethpage CSD",
+      "orpts": "282404",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 5059213,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1027,
+        "basic_exemption": 1007,
+        "enhanced_credit": 2906.77,
+        "enhanced_exemption": 2906.77
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 4836,
+          "basic_dollars": 6636933,
+          "enhanced_count": 991,
+          "enhanced_dollars": 2966189,
+          "total_dollars": 9603122
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 4265,
+          "basic_dollars": 5780769,
+          "enhanced_count": 934,
+          "enhanced_dollars": 2868486,
+          "total_dollars": 8649255
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 3917,
+          "basic_dollars": 5296823,
+          "enhanced_count": 880,
+          "enhanced_dollars": 2715774,
+          "total_dollars": 8012597
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 3487,
+          "basic_dollars": 4606921,
+          "enhanced_count": 840,
+          "enhanced_dollars": 2694784,
+          "total_dollars": 7301705
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 3073,
+          "basic_dollars": 3828356,
+          "enhanced_count": 806,
+          "enhanced_dollars": 2510586,
+          "total_dollars": 6338942
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 2745,
+          "basic_dollars": 2752131,
+          "enhanced_count": 767,
+          "enhanced_dollars": 2307082,
+          "total_dollars": 5059213
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2412,
+          "basic_dollars": 2463167,
+          "enhanced_count": 742,
+          "enhanced_dollars": 2121585,
+          "total_dollars": 4584752
+        }
+      }
+    },
+    {
+      "id": "280506",
+      "nces": "3622290",
+      "name": "Oyster Bay-East Norwich CSD",
+      "orpts": "282406",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 918772,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 670,
+        "basic_exemption": 657,
+        "enhanced_credit": 1878,
+        "enhanced_exemption": 1667
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 1543,
+          "basic_dollars": 1135180,
+          "enhanced_count": 276,
+          "enhanced_dollars": 437288,
+          "total_dollars": 1572468
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1379,
+          "basic_dollars": 989267,
+          "enhanced_count": 268,
+          "enhanced_dollars": 428758,
+          "total_dollars": 1418025
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1236,
+          "basic_dollars": 899978,
+          "enhanced_count": 260,
+          "enhanced_dollars": 418583,
+          "total_dollars": 1318561
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1119,
+          "basic_dollars": 798316,
+          "enhanced_count": 244,
+          "enhanced_dollars": 406965,
+          "total_dollars": 1205281
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 963,
+          "basic_dollars": 672199,
+          "enhanced_count": 230,
+          "enhanced_dollars": 389328,
+          "total_dollars": 1061527
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 860,
+          "basic_dollars": 526727,
+          "enhanced_count": 223,
+          "enhanced_dollars": 392045,
+          "total_dollars": 918772
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 764,
+          "basic_dollars": 478119,
+          "enhanced_count": 220,
+          "enhanced_dollars": 377618,
+          "total_dollars": 855737
+        }
+      }
+    },
+    {
+      "id": "280515",
+      "nces": "3615810",
+      "name": "Jericho UFSD",
+      "orpts": "282415",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 1097940,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 951,
+        "basic_exemption": 933,
+        "enhanced_credit": 2705.28,
+        "enhanced_exemption": 2487
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 1583,
+          "basic_dollars": 1802333,
+          "enhanced_count": 213,
+          "enhanced_dollars": 529668,
+          "total_dollars": 2332001
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 1345,
+          "basic_dollars": 1515799,
+          "enhanced_count": 195,
+          "enhanced_dollars": 501453,
+          "total_dollars": 2017252
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 1219,
+          "basic_dollars": 1371554,
+          "enhanced_count": 178,
+          "enhanced_dollars": 458610,
+          "total_dollars": 1830164
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 1057,
+          "basic_dollars": 1168954,
+          "enhanced_count": 172,
+          "enhanced_dollars": 462545,
+          "total_dollars": 1631499
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 853,
+          "basic_dollars": 930562,
+          "enhanced_count": 166,
+          "enhanced_dollars": 453338,
+          "total_dollars": 1383900
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 757,
+          "basic_dollars": 674857,
+          "enhanced_count": 158,
+          "enhanced_dollars": 423083,
+          "total_dollars": 1097940
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 648,
+          "basic_dollars": 592662,
+          "enhanced_count": 158,
+          "enhanced_dollars": 404711,
+          "total_dollars": 997373
+        }
+      }
+    },
+    {
+      "id": "280517",
+      "nces": "3614340",
+      "name": "Hicksville UFSD",
+      "orpts": "282417",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 5446994,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 693,
+        "basic_exemption": 679,
+        "enhanced_credit": 1969.52,
+        "enhanced_exemption": 1969.52
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 6147,
+          "basic_dollars": 5628399,
+          "enhanced_count": 1553,
+          "enhanced_dollars": 3014228,
+          "total_dollars": 8642627
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 5664,
+          "basic_dollars": 5137148,
+          "enhanced_count": 1484,
+          "enhanced_dollars": 2918273,
+          "total_dollars": 8055421
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 5371,
+          "basic_dollars": 4841892,
+          "enhanced_count": 1409,
+          "enhanced_dollars": 2806744,
+          "total_dollars": 7648636
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 4903,
+          "basic_dollars": 4309225,
+          "enhanced_count": 1410,
+          "enhanced_dollars": 2921963,
+          "total_dollars": 7231188
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 4457,
+          "basic_dollars": 3693989,
+          "enhanced_count": 1391,
+          "enhanced_dollars": 2812992,
+          "total_dollars": 6506981
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 4156,
+          "basic_dollars": 2796156,
+          "enhanced_count": 1343,
+          "enhanced_dollars": 2650838,
+          "total_dollars": 5446994
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 3751,
+          "basic_dollars": 2591325,
+          "enhanced_count": 1380,
+          "enhanced_dollars": 2623402,
+          "total_dollars": 5214727
+        }
+      }
+    },
+    {
+      "id": "280518",
+      "nces": "3623190",
+      "name": "Plainedge UFSD",
+      "orpts": "282418",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 4964304,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 1115,
+        "basic_exemption": 1093,
+        "enhanced_credit": 3137.5,
+        "enhanced_exemption": 3137.5
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 3555,
+          "basic_dollars": 5805806,
+          "enhanced_count": 882,
+          "enhanced_dollars": 3139460,
+          "total_dollars": 8945266
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 3228,
+          "basic_dollars": 5211297,
+          "enhanced_count": 866,
+          "enhanced_dollars": 3136364,
+          "total_dollars": 8347661
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 3039,
+          "basic_dollars": 4882297,
+          "enhanced_count": 824,
+          "enhanced_dollars": 3012519,
+          "total_dollars": 7894816
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2752,
+          "basic_dollars": 4307133,
+          "enhanced_count": 799,
+          "enhanced_dollars": 3031015,
+          "total_dollars": 7338148
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2480,
+          "basic_dollars": 3483278,
+          "enhanced_count": 788,
+          "enhanced_dollars": 2765318,
+          "total_dollars": 6248596
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 2279,
+          "basic_dollars": 2491478,
+          "enhanced_count": 754,
+          "enhanced_dollars": 2472826,
+          "total_dollars": 4964304
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 2034,
+          "basic_dollars": 2251395,
+          "enhanced_count": 752,
+          "enhanced_dollars": 2330746,
+          "total_dollars": 4582141
+        }
+      }
+    },
+    {
+      "id": "280521",
+      "nces": "3604740",
+      "name": "Bethpage UFSD",
+      "orpts": "282421",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 3450296,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 899,
+        "basic_exemption": 881,
+        "enhanced_credit": 2584.21,
+        "enhanced_exemption": 2584.21
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 3344,
+          "basic_dollars": 3843767,
+          "enhanced_count": 965,
+          "enhanced_dollars": 1895338,
+          "total_dollars": 5739105
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 3089,
+          "basic_dollars": 3498469,
+          "enhanced_count": 924,
+          "enhanced_dollars": 1849029,
+          "total_dollars": 5347498
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 2900,
+          "basic_dollars": 3265693,
+          "enhanced_count": 883,
+          "enhanced_dollars": 1807495,
+          "total_dollars": 5073188
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 2644,
+          "basic_dollars": 2894450,
+          "enhanced_count": 851,
+          "enhanced_dollars": 1859521,
+          "total_dollars": 4753971
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 2350,
+          "basic_dollars": 2438182,
+          "enhanced_count": 830,
+          "enhanced_dollars": 1780463,
+          "total_dollars": 4218645
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 2148,
+          "basic_dollars": 1798937,
+          "enhanced_count": 776,
+          "enhanced_dollars": 1651359,
+          "total_dollars": 3450296
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 1877,
+          "basic_dollars": 1645777,
+          "enhanced_count": 743,
+          "enhanced_dollars": 1565540,
+          "total_dollars": 3211317
+        }
+      }
+    },
+    {
+      "id": "280522",
+      "nces": "3610980",
+      "name": "Farmingdale UFSD",
+      "orpts": "282422",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 8551975,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 993,
+        "basic_exemption": 974,
+        "enhanced_credit": 2871.45,
+        "enhanced_exemption": 2871.45
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 6767,
+          "basic_dollars": 9257177,
+          "enhanced_count": 1676,
+          "enhanced_dollars": 4952898,
+          "total_dollars": 14210075
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 6215,
+          "basic_dollars": 8358009,
+          "enhanced_count": 1616,
+          "enhanced_dollars": 4802922,
+          "total_dollars": 13160931
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 5887,
+          "basic_dollars": 7911807,
+          "enhanced_count": 1523,
+          "enhanced_dollars": 4547228,
+          "total_dollars": 12459035
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 5377,
+          "basic_dollars": 7025095,
+          "enhanced_count": 1515,
+          "enhanced_dollars": 4705331,
+          "total_dollars": 11730426
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 4905,
+          "basic_dollars": 5975135,
+          "enhanced_count": 1513,
+          "enhanced_dollars": 4560939,
+          "total_dollars": 10536074
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 4496,
+          "basic_dollars": 4361863,
+          "enhanced_count": 1481,
+          "enhanced_dollars": 4190112,
+          "total_dollars": 8551975
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 4008,
+          "basic_dollars": 3973534,
+          "enhanced_count": 1490,
+          "enhanced_dollars": 4086798,
+          "total_dollars": 8060332
+        }
+      }
+    },
+    {
+      "id": "280523",
+      "nces": "3618630",
+      "name": "Massapequa UFSD",
+      "orpts": "282423",
+      "chsd": false,
+      "chsd_group": null,
+      "osc_star_fy2024_25": 9363400,
+      "max_savings": {
+        "levy_year": 2025,
+        "school_year": "2025-26",
+        "tax_class": "1",
+        "tax_class_label": "Nassau Class 1 (1-3 family and similar residential)",
+        "basic_credit": 979,
+        "basic_exemption": 959,
+        "enhanced_credit": 2790.65,
+        "enhanced_exemption": 2724
+      },
+      "years": {
+        "2019": {
+          "school_year": "2019-20",
+          "prepared": "2023-03-29",
+          "basic_count": 8490,
+          "basic_dollars": 10689336,
+          "enhanced_count": 1870,
+          "enhanced_dollars": 5087304,
+          "total_dollars": 15776640
+        },
+        "2020": {
+          "school_year": "2020-21",
+          "prepared": "2024-03-14",
+          "basic_count": 7688,
+          "basic_dollars": 9575108,
+          "enhanced_count": 1769,
+          "enhanced_dollars": 4912597,
+          "total_dollars": 14487705
+        },
+        "2021": {
+          "school_year": "2021-22",
+          "prepared": "2026-03-18",
+          "basic_count": 7109,
+          "basic_dollars": 8819749,
+          "enhanced_count": 1684,
+          "enhanced_dollars": 4713676,
+          "total_dollars": 13533425
+        },
+        "2022": {
+          "school_year": "2022-23",
+          "prepared": "2026-03-18",
+          "basic_count": 6438,
+          "basic_dollars": 7788415,
+          "enhanced_count": 1690,
+          "enhanced_dollars": 4912704,
+          "total_dollars": 12701119
+        },
+        "2023": {
+          "school_year": "2023-24",
+          "prepared": "2026-03-18",
+          "basic_count": 5737,
+          "basic_dollars": 6718126,
+          "enhanced_count": 1657,
+          "enhanced_dollars": 4809888,
+          "total_dollars": 11528014
+        },
+        "2024": {
+          "school_year": "2024-25",
+          "prepared": "2026-03-18",
+          "basic_count": 5196,
+          "basic_dollars": 4844726,
+          "enhanced_count": 1622,
+          "enhanced_dollars": 4518674,
+          "total_dollars": 9363400
+        },
+        "2025": {
+          "school_year": "2025-26",
+          "prepared": "2026-03-18",
+          "basic_count": 4616,
+          "basic_dollars": 4456352,
+          "enhanced_count": 1609,
+          "enhanced_dollars": 4326586,
+          "total_dollars": 8782938
+        }
+      }
+    }
+  ]
+}

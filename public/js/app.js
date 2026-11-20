@@ -2,7 +2,7 @@
 "use strict";
 var SRC=[
  {k:"property_tax",l:"Property taxes",c:"#c8ff00",local:1},
- {k:"star",l:"STAR",c:"#00ffd0"},
+ {k:"star",l:"STAR revenue",c:"#00ffd0"},
  {k:"pilots",l:"PILOTs",c:"#7eb0ff",local:1},
  {k:"state_formula",l:"State formula aid",c:"#ff2d6a"},
  {k:"state_other",l:"Other state aid",c:"#ff9ab8"},
@@ -12,7 +12,7 @@ var SRC=[
  {k:"other_local",l:"Other local",c:"#8a8a94",local:1}
 ];
 var COLS=[
- {k:"property_tax",l:"Property taxes"},{k:"star",l:"STAR"},{k:"pilots",l:"PILOTs"},
+ {k:"property_tax",l:"Property taxes"},{k:"star",l:"STAR revenue"},{k:"pilots",l:"PILOTs"},
  {k:"state_formula",l:"State formula aid"},{k:"state_other",l:"Other state aid"},{k:"state_aid_total",l:"State aid total",tot:1},
  {k:"federal_aid",l:"Federal aid"},{k:"tuition_charges",l:"Tuition & charges"},{k:"interest_earnings",l:"Interest earnings"},
  {k:"other_local",l:"Other local"},{k:"total_revenue",l:"Total revenue",tot:1},
@@ -90,7 +90,7 @@ function table(){
  if(st.county!=="Nassau")foot.push([agg(D.filter(function(r){return r.county==="Suffolk"}),"Suffolk total"),""]);
  foot.push([agg(D,"Long Island total"),"li"]);
  t.tFoot.innerHTML=foot.map(function(f){return'<tr class="'+f[1]+'"><td>'+f[0].name+"</td>"+cells(f[0],1)+"</tr>"}).join("");
- $("table-note").textContent=rows.length+" of 125 districts shown. Revenue is fiscal 2024-25 actuals. Blue columns are for context and aren't counted in total revenue. Per-pupil figures divide by fall 2024 K-12 enrollment. Subtotals always cover every district in the county. n/a means the state did not report a figure; in the % view Foundation Aid reads n/a because it covers a different year.";
+ $("table-note").textContent=rows.length+" of 125 districts shown. Revenue is fiscal 2024-25 actuals. STAR revenue is this district's STAR revenue (Comptroller account 1085), not the Nassau exemption counts further down the page. Blue columns are for context and aren't counted in total revenue. Per-pupil figures divide by fall 2024 K-12 enrollment. Subtotals always cover every district in the county. n/a means the state did not report a figure; in the % view Foundation Aid reads n/a because it covers a different year.";
 }
 $("search").addEventListener("input",function(e){st.q=e.target.value;table()});
 
@@ -101,7 +101,7 @@ function map(){
  L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",{maxZoom:16,attribution:"Basemap &copy; Esri"}).addTo(m);
  var byN={};D.forEach(function(r){byN[r.nces]=r});
  function pop(r){return'<div class="pop"><h3>'+r.name+'</h3><div class="c">'+r.county+" County · 2024-25</div><div class=\"kv\">"+
-  [["State aid",pct(r.state_pct)],["Property taxes",pct(r.property_tax/r.total_revenue*100)],["STAR",pct(r.star/r.total_revenue*100)],["Federal aid",pct(r.federal_aid/r.total_revenue*100)],["Local share",pct(r.local_share)],["Total revenue",money(r.total_revenue)],["Per pupil",r.enr?full(r.total_revenue/r.enr):"n/a"]].map(function(x){return"<span>"+x[0]+"</span><b>"+x[1]+"</b>"}).join("")+"</div></div>"}
+  [["State aid",pct(r.state_pct)],["Property taxes",pct(r.property_tax/r.total_revenue*100)],["STAR revenue",pct(r.star/r.total_revenue*100)],["Federal aid",pct(r.federal_aid/r.total_revenue*100)],["Local share",pct(r.local_share)],["Total revenue",money(r.total_revenue)],["Per pupil",r.enr?full(r.total_revenue/r.enr):"n/a"]].map(function(x){return"<span>"+x[0]+"</span><b>"+x[1]+"</b>"}).join("")+"</div></div>"}
  fetch("data/boundaries.geojson").then(function(r){return r.json()}).then(function(g){
   var lay=L.geoJSON(g,{style:function(f){var r=byN[f.properties.id];return{color:"#000",weight:.8,fillColor:r?ramp(r.state_pct):"#111",fillOpacity:.82}},
    onEachFeature:function(f,l){var r=byN[f.properties.id];if(!r)return;l.bindPopup(pop(r));l.on("mouseover",function(){l.setStyle({color:"#c8ff00",weight:2})});l.on("mouseout",function(){lay.resetStyle(l)})}}).addTo(m);

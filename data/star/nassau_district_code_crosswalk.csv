@@ -1,0 +1,57 @@
+district_name,county,beds_code,nces_id,orpts_school_district_code,is_central_high_school_district,chsd_group,dtf_reimbursement_row_published,osc_star_revenue_fy2024_25
+Glen Cove City SD,Nassau,280100,3612180,280500,False,,yes,3024816
+Hempstead UFSD,Nassau,280201,3614130,282001,False,,yes,2847208
+Uniondale UFSD,Nassau,280202,3629280,282002,False,,yes,3730588
+East Meadow UFSD,Nassau,280203,3609840,282003,False,,yes,8331513
+North Bellmore UFSD,Nassau,280204,3620940,282004,False,Bellmore-Merrick Central HS District,yes,2839458
+Levittown UFSD,Nassau,280205,3617160,282005,False,,yes,12953095
+Seaford UFSD,Nassau,280206,3626400,282006,False,,yes,3720949
+Bellmore UFSD,Nassau,280207,3604410,282007,False,Bellmore-Merrick Central HS District,yes,1172571
+Roosevelt UFSD,Nassau,280208,3624990,282008,False,,yes,1718176
+Freeport UFSD,Nassau,280209,3611550,282009,False,,yes,4746526
+Baldwin UFSD,Nassau,280210,3603840,282010,False,,yes,6378813
+Oceanside UFSD,Nassau,280211,3621570,282011,False,,yes,6542604
+Malverne UFSD,Nassau,280212,3618210,282012,False,,yes,2821306
+Valley Stream 13 UFSD,Nassau,280213,3629430,282013,False,Valley Stream Central HS District,yes,2450879
+Hewlett-Woodmere UFSD,Nassau,280214,3631710,282014,False,,yes,3085410
+Lawrence UFSD,Nassau,280215,3616830,282015,False,,yes,1559913
+Elmont UFSD,Nassau,280216,3610620,282016,False,Sewanhaka Central HS District,yes,3244725
+Franklin Square UFSD,Nassau,280217,3611460,282017,False,Sewanhaka Central HS District,yes,1677623
+Garden City UFSD,Nassau,280218,3611760,282018,False,,yes,1751140
+East Rockaway UFSD,Nassau,280219,3609960,282019,False,,yes,2101866
+Lynbrook UFSD,Nassau,280220,3617910,282020,False,,yes,3153907
+Rockville Centre UFSD,Nassau,280221,3624780,282021,False,,yes,2790016
+Floral Park-Bellerose UFSD,Nassau,280222,3611160,282022,False,Sewanhaka Central HS District,yes,1271225
+Wantagh UFSD,Nassau,280223,3629850,282023,False,,yes,3510716
+Valley Stream 24 UFSD,Nassau,280224,3629460,282024,False,Valley Stream Central HS District,yes,914991
+Merrick UFSD,Nassau,280225,3619110,282025,False,Bellmore-Merrick Central HS District,yes,1717531
+Island Trees UFSD,Nassau,280226,3615510,282026,False,,yes,2813645
+West Hempstead UFSD,Nassau,280227,3630660,282027,False,,yes,2787947
+North Merrick UFSD,Nassau,280229,3621120,282029,False,Bellmore-Merrick Central HS District,yes,1604508
+Valley Stream 30 UFSD,Nassau,280230,3629490,282030,False,Valley Stream Central HS District,yes,991106
+Island Park UFSD,Nassau,280231,3615480,282031,False,,yes,973494
+Valley Stream Central HS District,Nassau,280251,3629520,282051,True,Valley Stream Central HS District,no,4438000
+Sewanhaka Central HS District,Nassau,280252,3626520,282052,True,Sewanhaka Central HS District,no,8491706
+Bellmore-Merrick Central HS District,Nassau,280253,3619020,282053,True,Bellmore-Merrick Central HS District,no,6739813
+Long Beach City SD,Nassau,280300,3617730,281000,False,,yes,3206519
+Westbury UFSD,Nassau,280401,3630960,282201,False,,yes,3459607
+East Williston UFSD,Nassau,280402,3610050,282202,False,,yes,878424
+Roslyn UFSD,Nassau,280403,3625050,282203,False,,yes,1594599
+Port Washington UFSD,Nassau,280404,3623580,282204,False,,yes,2357160
+New Hyde Park-Garden City Park UFSD,Nassau,280405,3620400,282205,False,Sewanhaka Central HS District,yes,1575501
+Manhasset UFSD,Nassau,280406,3618270,282206,False,,yes,656753
+Great Neck UFSD,Nassau,280407,3612510,282207,False,,yes,3116443
+Herricks UFSD,Nassau,280409,3614280,282209,False,,yes,3471245
+Mineola UFSD,Nassau,280410,3619500,282210,False,,yes,3422382
+Carle Place UFSD,Nassau,280411,3606540,282211,False,,yes,1571578
+North Shore CSD,Nassau,280501,3626370,282401,False,,yes,1862443
+Syosset CSD,Nassau,280502,3628560,282402,False,,yes,4203668
+Locust Valley CSD,Nassau,280503,3617700,282403,False,,yes,1607040
+Plainview-Old Bethpage CSD,Nassau,280504,3623220,282404,False,,yes,5059213
+Oyster Bay-East Norwich CSD,Nassau,280506,3622290,282406,False,,yes,918772
+Jericho UFSD,Nassau,280515,3615810,282415,False,,yes,1097940
+Hicksville UFSD,Nassau,280517,3614340,282417,False,,yes,5446994
+Plainedge UFSD,Nassau,280518,3623190,282418,False,,yes,4964304
+Bethpage UFSD,Nassau,280521,3604740,282421,False,,yes,3450296
+Farmingdale UFSD,Nassau,280522,3610980,282422,False,,yes,8551975
+Massapequa UFSD,Nassau,280523,3618630,282423,False,,yes,9363400
